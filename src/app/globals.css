@@ -1,8 +1,8 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #020617;
+  --foreground: #ededed;
 }
 
 @theme inline {
@@ -12,15 +12,202 @@
   --font-mono: var(--font-geist-mono);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-geist-sans), Arial, Helvetica, sans-serif;
+}
+
+button, input, select, textarea {
+  font: inherit;
+}
+
+.theme-day {
+  --background: #f8fafc;
+  --foreground: #0f172a;
+}
+
+.theme-day body {
+  background: #f8fafc !important;
+  color: #0f172a !important;
+}
+
+.theme-day .app-shell-root {
+  background:
+    radial-gradient(circle at top left, rgba(34, 211, 238, 0.18), transparent 30rem),
+    radial-gradient(circle at top right, rgba(232, 121, 249, 0.12), transparent 28rem),
+    #f8fafc !important;
+  color: #0f172a !important;
+}
+
+.theme-day .app-sidebar,
+.theme-day .app-header {
+  border-color: rgba(15, 23, 42, 0.12) !important;
+  background: rgba(255, 255, 255, 0.86) !important;
+  color: #0f172a !important;
+}
+
+.theme-day .ui-card {
+  border-color: rgba(15, 23, 42, 0.12) !important;
+  background: rgba(255, 255, 255, 0.86) !important;
+  box-shadow: 0 20px 50px rgba(15, 23, 42, 0.08) !important;
+  color: #0f172a !important;
+}
+
+.theme-day .ui-input {
+  border-color: rgba(15, 23, 42, 0.16) !important;
+  background: rgba(255, 255, 255, 0.92) !important;
+  color: #0f172a !important;
+}
+
+.theme-day .ui-input::placeholder {
+  color: #64748b !important;
+}
+
+.theme-day .ui-label,
+.theme-day .app-strong,
+.theme-day h1,
+.theme-day h2,
+.theme-day h3,
+.theme-day strong,
+.theme-day .text-white {
+  color: #0f172a !important;
+}
+
+.theme-day .ui-hint,
+.theme-day .text-slate-400,
+.theme-day .text-slate-500 {
+  color: #64748b !important;
+}
+
+.theme-day .text-slate-300,
+.theme-day .text-slate-200,
+.theme-day .app-nav-link {
+  color: #334155 !important;
+}
+
+.theme-day .app-nav-link:hover,
+.theme-day .theme-toggle:hover {
+  background: rgba(15, 23, 42, 0.06) !important;
+}
+
+.theme-day .theme-toggle {
+  border-color: rgba(15, 23, 42, 0.14) !important;
+  background: rgba(255, 255, 255, 0.92) !important;
+  color: #0f172a !important;
+}
+
+.theme-day table thead,
+.theme-day .bg-white\/5 {
+  background: rgba(15, 23, 42, 0.05) !important;
+}
+
+.theme-day .divide-white\/10 > :not([hidden]) ~ :not([hidden]) {
+  border-color: rgba(15, 23, 42, 0.1) !important;
+}
+
+.theme-day .border-white\/10 {
+  border-color: rgba(15, 23, 42, 0.12) !important;
+}
+
+.theme-day .ui-badge {
+  color: #0f172a;
+}
+
+.theme-day .text-cyan-100,
+.theme-day .text-cyan-200 {
+  color: #0891b2 !important;
+}
+
+.theme-day .text-lime-100,
+.theme-day .text-lime-200 {
+  color: #4d7c0f !important;
+}
+
+.theme-day .text-amber-100,
+.theme-day .text-amber-200 {
+  color: #b45309 !important;
+}
+
+.theme-day .text-fuchsia-100,
+.theme-day .text-fuchsia-200 {
+  color: #a21caf !important;
+}
+
+.theme-day .text-rose-100,
+.theme-day .text-rose-200 {
+  color: #be123c !important;
+}
+
+.theme-day .bg-cyan-300\/10,
+.theme-day .bg-cyan-300\/8 {
+  background: rgba(8, 145, 178, 0.1) !important;
+}
+
+.theme-day .bg-lime-300\/10 {
+  background: rgba(77, 124, 15, 0.1) !important;
+}
+
+.theme-day .bg-amber-300\/10 {
+  background: rgba(180, 83, 9, 0.1) !important;
+}
+
+.theme-day .bg-fuchsia-300\/10 {
+  background: rgba(162, 28, 175, 0.1) !important;
+}
+
+.theme-day .border-cyan-300\/20,
+.theme-day .border-cyan-300\/30 {
+  border-color: rgba(8, 145, 178, 0.32) !important;
+}
+
+.theme-day .border-lime-300\/20,
+.theme-day .border-lime-300\/30 {
+  border-color: rgba(77, 124, 15, 0.32) !important;
+}
+
+.theme-day .border-amber-300\/20,
+.theme-day .border-amber-300\/30 {
+  border-color: rgba(180, 83, 9, 0.34) !important;
+}
+
+.theme-day .border-fuchsia-300\/20,
+.theme-day .border-fuchsia-300\/30 {
+  border-color: rgba(162, 28, 175, 0.32) !important;
+}
+
+.theme-day .bg-cyan-400 {
+  background: #06b6d4 !important;
+}
+
+.theme-day .text-slate-950 {
+  color: #020617 !important;
+}
+
+@media print {
+  html,
+  body {
+    background: #ffffff !important;
+    color: #0f172a !important;
+  }
+
+  aside,
+  header,
+  .no-print {
+    display: none !important;
+  }
+
+  main,
+  body,
+  .print-note {
+    margin: 0 !important;
+    padding: 0 !important;
+    box-shadow: none !important;
+    border: 0 !important;
+  }
+
+  .print-note {
+    max-width: none !important;
+    width: 100% !important;
+  }
 }

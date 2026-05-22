@@ -1,0 +1,60 @@
+import Papa from "papaparse";
+
+export const productCsvHeaders = [
+  "ID",
+  "SKU",
+  "Nombre",
+  "Marca",
+  "Modelo",
+  "Condicion",
+  "Categoria",
+  "Stock actual",
+  "Stock minimo",
+  "Costo USD",
+  "Precio base USD",
+  "Precio ajustado USD",
+  "Precio Bs",
+  "Tasa BCV usada",
+  "Tasa Binance usada",
+  "Ganancia USD",
+  "Margen %",
+  "Estado",
+  "Fecha de creacion",
+  "Ultima actualizacion",
+];
+
+export type ImportProductRow = {
+  nombre?: string;
+  marca?: string;
+  modelo?: string;
+  sku?: string;
+  categoria?: string;
+  condicion?: string;
+  stock?: string;
+  stockMinimo?: string;
+  costoUSD?: string;
+  precioVentaBaseUSD?: string;
+};
+
+export function parseImportCsv(csv: string) {
+  return Papa.parse<ImportProductRow>(csv, {
+    header: true,
+    skipEmptyLines: true,
+    transformHeader: (header) => header.trim(),
+  });
+}
+
+export function toCsv(rows: unknown[]) {
+  return Papa.unparse(rows);
+}
+
+export function parseProductCondition(value?: string) {
+  const normalized = (value || "nuevo").trim().toLowerCase();
+  if (["nuevo", "new"].includes(normalized)) return "NEW";
+  if (["refurbished", "refurb", "reacondicionado"].includes(normalized)) return "REFURBISHED";
+  return null;
+}
+
+export function productConditionLabel(condition: string | null | undefined) {
+  return condition === "REFURBISHED" ? "Refurbished" : "Nuevo";
+}

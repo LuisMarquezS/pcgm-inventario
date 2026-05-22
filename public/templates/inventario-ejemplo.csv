@@ -1,0 +1,4 @@
+nombre,marca,modelo,sku,categoria,condicion,stock,stockMinimo,costoUSD,precioVentaBaseUSD
+Tarjeta grafica RTX 4060 8GB,NVIDIA,RTX 4060,GPU-RTX4060-8G,GPU,nuevo,3,1,285,390
+Control DualSense Sony,Sony,DualSense,CON-DUALSENSE,CONTROL,nuevo,5,2,52,75
+Mouse Logitech G Pro Refurbished,Logitech,G Pro,MOU-GPRO-REF,MOUSE,refurbished,2,1,35,55

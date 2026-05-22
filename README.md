@@ -1,36 +1,82 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# PC Gamer Margarita Inventario
 
-## Getting Started
+Web app local para inventario de una tienda gamer: productos, categorias, stock, ventas, notas de entrega, tasas BCV/Binance, calculos de precios, importacion y exportacion CSV.
 
-First, run the development server:
+## Requisitos
+
+- Node.js 20+ recomendado
+- npm
+
+## Instalacion local
+
+```bash
+npm install
+npx prisma migrate dev
+npm run seed
+npm run dev
+```
+
+Abre `http://localhost:3000`.
+
+Si el motor local de Prisma falla al crear SQLite en Windows, puedes inicializar la base con el fallback incluido:
+
+```bash
+npm run db:init
+npm run seed
+npm run dev
+```
+
+## Tasas
+
+Ve a `Tasas`, escribe la tasa BCV y Binance/USDT y pulsa `Guardar tasas manualmente`. La app no recalcula productos automaticamente: en inventario puedes recalcular un producto o todos con confirmacion.
+
+El boton `Actualizar desde CrystoDolar` usa el endpoint interno `/api/exchange-rates/crysto-dolar`. Si CrystoDolar falla por CORS, bloqueo o 429, la app mantiene el flujo manual y muestra un mensaje amigable.
+
+## Importar CSV
+
+Ve a `Importar/Exportar` y sube un CSV con estas columnas:
+
+```csv
+nombre,marca,modelo,sku,categoria,condicion,stock,stockMinimo,costoUSD,precioVentaBaseUSD
+```
+
+Hay una plantilla en `public/templates/inventario-ejemplo.csv`.
+
+La columna `condicion` es opcional y acepta `nuevo` o `refurbished`. Si viene vacia, la app usa `Nuevo`.
+
+## Exportar inventario
+
+En `Importar/Exportar`, pulsa `Exportar CSV`. El archivo incluye stock, costos, precios calculados, tasas usadas, margen y fechas.
+
+## Ventas y carrito
+
+El flujo principal empieza en `Inventario`: busca el producto y pulsa el icono de carrito en la fila. El carrito global queda disponible desde la barra superior y persiste mientras navegas.
+
+Desde el drawer del carrito puedes aumentar, reducir o quitar productos, ver totales USD/Bs, vaciar el carrito y finalizar la venta. Al confirmar, guarda la venta, guarda snapshots de los productos vendidos y descuenta stock dentro de una transaccion. Si algun producto ya no tiene stock suficiente, la venta se cancela completa y no descuenta stock parcial.
+
+La ruta `Ventas` ahora muestra metricas e historial: ventas de hoy, semana, mes, productos vendidos y acceso a notas de entrega.
+
+## Nota de entrega
+
+Despues de finalizar una venta puedes abrir `Ver nota de entrega`, o ir a `Historial de ventas` y pulsar `Ver nota`. La nota incluye cliente opcional, productos, condicion, precios unitarios, subtotales y totales.
+
+Para imprimir, usa el boton `Imprimir nota`. La vista tiene estilos de impresion para papel blanco. Es documento no fiscal.
+
+## Scripts utiles
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm run build
+npm run lint
+npm run seed
+npm run db:init
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Estructura
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- `src/app`: rutas, acciones de servidor y endpoints internos.
+- `src/components`: layout, UI y modulos visuales.
+- `src/lib/pricing.ts`: formulas de precios.
+- `src/lib/exchange-rate-providers`: proveedores Manual y CrystoDolar.
+- `prisma/schema.prisma`: modelos SQLite.
+- `prisma/seed.ts`: categorias, productos, tasa y settings iniciales.

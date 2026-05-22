@@ -1,0 +1,452 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Propuesta - PC Gamer Margarita Inventario</title>
+    <style>
+      :root {
+        color-scheme: dark;
+        --bg: #020617;
+        --panel: rgba(15, 23, 42, 0.78);
+        --panel-strong: rgba(15, 23, 42, 0.96);
+        --line: rgba(255, 255, 255, 0.12);
+        --text: #f8fafc;
+        --muted: #94a3b8;
+        --cyan: #22d3ee;
+        --lime: #a3e635;
+        --pink: #e879f9;
+        --blue: #60a5fa;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        background:
+          radial-gradient(circle at top left, rgba(34, 211, 238, 0.22), transparent 34rem),
+          radial-gradient(circle at top right, rgba(232, 121, 249, 0.16), transparent 32rem),
+          var(--bg);
+        color: var(--text);
+        font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        line-height: 1.55;
+      }
+
+      .wrap {
+        width: min(1120px, calc(100% - 32px));
+        margin: 0 auto;
+      }
+
+      header {
+        padding: 56px 0 32px;
+      }
+
+      .eyebrow {
+        color: var(--cyan);
+        font-size: 13px;
+        font-weight: 800;
+        letter-spacing: 0.2em;
+        text-transform: uppercase;
+      }
+
+      h1 {
+        max-width: 880px;
+        margin: 14px 0 16px;
+        font-size: clamp(36px, 7vw, 72px);
+        line-height: 0.98;
+        letter-spacing: 0;
+      }
+
+      .lead {
+        max-width: 760px;
+        color: #cbd5e1;
+        font-size: 19px;
+      }
+
+      .hero-grid,
+      .grid {
+        display: grid;
+        gap: 18px;
+      }
+
+      .hero-grid {
+        grid-template-columns: 1.25fr 0.75fr;
+        align-items: stretch;
+        margin-top: 34px;
+      }
+
+      .card {
+        border: 1px solid var(--line);
+        border-radius: 14px;
+        background: var(--panel);
+        box-shadow: 0 24px 70px rgba(0, 0, 0, 0.28);
+        padding: 24px;
+      }
+
+      .stat-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 14px;
+      }
+
+      .stat {
+        border: 1px solid var(--line);
+        border-radius: 12px;
+        background: rgba(255, 255, 255, 0.05);
+        padding: 16px;
+      }
+
+      .stat strong {
+        display: block;
+        color: var(--cyan);
+        font-size: 28px;
+        line-height: 1.1;
+      }
+
+      .stat span {
+        color: var(--muted);
+        font-size: 13px;
+      }
+
+      section {
+        padding: 30px 0;
+      }
+
+      h2 {
+        margin: 0 0 16px;
+        font-size: 30px;
+      }
+
+      h3 {
+        margin: 0 0 8px;
+        font-size: 18px;
+      }
+
+      p {
+        margin: 0;
+      }
+
+      .features {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 16px;
+      }
+
+      .feature {
+        min-height: 178px;
+      }
+
+      .feature p,
+      .step p,
+      .small {
+        color: var(--muted);
+        font-size: 14px;
+      }
+
+      .tag {
+        display: inline-flex;
+        align-items: center;
+        min-height: 28px;
+        border: 1px solid rgba(34, 211, 238, 0.28);
+        border-radius: 999px;
+        background: rgba(34, 211, 238, 0.1);
+        color: #cffafe;
+        font-size: 12px;
+        font-weight: 800;
+        padding: 0 10px;
+        margin-bottom: 14px;
+      }
+
+      .flow {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 14px;
+      }
+
+      .step {
+        position: relative;
+      }
+
+      .step-number {
+        display: grid;
+        width: 34px;
+        height: 34px;
+        place-items: center;
+        border-radius: 10px;
+        background: var(--cyan);
+        color: #020617;
+        font-weight: 950;
+        margin-bottom: 14px;
+      }
+
+      .table {
+        overflow: hidden;
+        border: 1px solid var(--line);
+        border-radius: 14px;
+      }
+
+      .row {
+        display: grid;
+        grid-template-columns: 0.8fr 1.4fr;
+        gap: 16px;
+        padding: 16px 18px;
+        background: rgba(255, 255, 255, 0.04);
+        border-bottom: 1px solid var(--line);
+      }
+
+      .row:last-child {
+        border-bottom: 0;
+      }
+
+      .row strong {
+        color: #e0f2fe;
+      }
+
+      .pill-list {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+      }
+
+      .pill {
+        border: 1px solid rgba(163, 230, 53, 0.28);
+        border-radius: 999px;
+        background: rgba(163, 230, 53, 0.1);
+        color: #ecfccb;
+        font-size: 13px;
+        font-weight: 750;
+        padding: 8px 12px;
+      }
+
+      .cta {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        gap: 18px;
+        background: linear-gradient(135deg, rgba(34, 211, 238, 0.16), rgba(232, 121, 249, 0.12)), var(--panel-strong);
+      }
+
+      .button {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 44px;
+        border-radius: 10px;
+        background: var(--cyan);
+        color: #020617;
+        font-weight: 900;
+        text-decoration: none;
+        padding: 0 18px;
+      }
+
+      footer {
+        color: var(--muted);
+        font-size: 13px;
+        padding: 28px 0 42px;
+      }
+
+      @media (max-width: 880px) {
+        .hero-grid,
+        .features,
+        .flow {
+          grid-template-columns: 1fr;
+        }
+
+        .stat-grid {
+          grid-template-columns: 1fr;
+        }
+
+        header {
+          padding-top: 34px;
+        }
+      }
+
+      @media print {
+        body {
+          background: #ffffff;
+          color: #0f172a;
+        }
+
+        .card,
+        .table {
+          box-shadow: none;
+          background: #ffffff;
+          border-color: #cbd5e1;
+        }
+
+        .lead,
+        .feature p,
+        .step p,
+        .small,
+        footer {
+          color: #475569;
+        }
+
+        .button {
+          display: none;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header class="wrap">
+      <div class="eyebrow">Propuesta funcional</div>
+      <h1>Inventario local para PC Gamer Margarita</h1>
+      <p class="lead">
+        Una web app rápida, visual y sencilla para reemplazar el control en Excel, manejar productos,
+        calcular precios con tasas venezolanas, vender desde inventario y generar notas de entrega.
+      </p>
+
+      <div class="hero-grid">
+        <div class="card">
+          <span class="tag">Pensada para tienda gamer</span>
+          <h2>Panel moderno, sin sentirse como un ERP pesado</h2>
+          <p class="small">
+            La app corre localmente, usa SQLite como base de datos y mantiene el flujo simple:
+            registrar producto, consultar stock, agregar al carrito, finalizar venta e imprimir nota.
+          </p>
+        </div>
+        <div class="card stat-grid">
+          <div class="stat"><strong>Local</strong><span>Funciona en la computadora de la tienda.</span></div>
+          <div class="stat"><strong>CSV</strong><span>Importa y exporta inventario para Excel.</span></div>
+          <div class="stat"><strong>USD/Bs</strong><span>Calcula precios con BCV y USDT.</span></div>
+          <div class="stat"><strong>Stock</strong><span>Descuenta unidades al vender.</span></div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="wrap">
+        <h2>Funciones principales</h2>
+        <div class="features">
+          <article class="card feature">
+            <span class="tag">Dashboard</span>
+            <h3>Vista general de la tienda</h3>
+            <p>Total de productos, stock, bajo stock, agotados, valor de inventario, tasas actuales y resumen de ventas.</p>
+          </article>
+          <article class="card feature">
+            <span class="tag">Inventario</span>
+            <h3>Productos compactos y rápidos</h3>
+            <p>Tabla densa con búsqueda, filtros, condición Nuevo/Refurbished, precios USD/Bs y acciones por íconos.</p>
+          </article>
+          <article class="card feature">
+            <span class="tag">Carrito</span>
+            <h3>Venta desde inventario</h3>
+            <p>Agregar productos desde la tabla, abrir carrito global, revisar totales y finalizar venta sin cambiar de flujo.</p>
+          </article>
+          <article class="card feature">
+            <span class="tag">Categorías</span>
+            <h3>Etiquetas compactas</h3>
+            <p>Categorías en chips, buscador, filtro de activas/inactivas y modal para editar sin una lista eterna de formularios.</p>
+          </article>
+          <article class="card feature">
+            <span class="tag">Tasas</span>
+            <h3>BCV y Binance/USDT</h3>
+            <p>Ingreso manual de tasas, historial y arquitectura preparada para proveedor externo opcional con fallback seguro.</p>
+          </article>
+          <article class="card feature">
+            <span class="tag">Ventas</span>
+            <h3>Métricas e historial</h3>
+            <p>Ventas de hoy, semana y mes, productos vendidos, historial, filtros y acceso directo a notas de entrega.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="wrap">
+        <h2>Flujo de uso</h2>
+        <div class="flow">
+          <article class="card step">
+            <div class="step-number">1</div>
+            <h3>Registrar productos</h3>
+            <p>Se cargan nombre, marca, modelo, categoría, condición, stock, costo y precio base.</p>
+          </article>
+          <article class="card step">
+            <div class="step-number">2</div>
+            <h3>Actualizar tasas</h3>
+            <p>La tienda guarda BCV y Binance/USDT para calcular precio ajustado USD y precio final en Bs.</p>
+          </article>
+          <article class="card step">
+            <div class="step-number">3</div>
+            <h3>Vender desde inventario</h3>
+            <p>Desde cada producto se pulsa el ícono de carrito. El carrito global acumula cantidades y totales.</p>
+          </article>
+          <article class="card step">
+            <div class="step-number">4</div>
+            <h3>Finalizar e imprimir</h3>
+            <p>Al confirmar, se descuenta stock, se registra la venta y se genera una nota de entrega imprimible.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="wrap">
+        <h2>Cómo funciona cada módulo</h2>
+        <div class="table">
+          <div class="row">
+            <strong>Inventario</strong>
+            <span>Permite buscar productos por nombre, SKU, marca o modelo; filtrar por categoría, stock y estado; editar, recalcular, eliminar y agregar al carrito.</span>
+          </div>
+          <div class="row">
+            <strong>Cálculo de precios</strong>
+            <span>Usa la fórmula: precio ajustado USD = precio base USD x tasa Binance / tasa BCV. Luego calcula el precio en bolívares con BCV.</span>
+          </div>
+          <div class="row">
+            <strong>Carrito global</strong>
+            <span>Está disponible desde el header, persiste al navegar, valida stock disponible y permite finalizar una venta con datos opcionales del cliente.</span>
+          </div>
+          <div class="row">
+            <strong>Ventas</strong>
+            <span>Guarda snapshots de producto, SKU, condición y precios. Así el historial no se rompe si luego se edita el producto.</span>
+          </div>
+          <div class="row">
+            <strong>Nota de entrega</strong>
+            <span>Documento no fiscal, limpio para impresión, con cliente opcional, productos, condición, precios unitarios, subtotales y totales.</span>
+          </div>
+          <div class="row">
+            <strong>Importar/Exportar</strong>
+            <span>Importa CSV desde Excel y exporta inventario completo con stock, costos, precios, tasas usadas, margen, condición y fechas.</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="wrap">
+        <h2>Incluye</h2>
+        <div class="card">
+          <div class="pill-list">
+            <span class="pill">Next.js local</span>
+            <span class="pill">SQLite</span>
+            <span class="pill">Prisma ORM</span>
+            <span class="pill">Modo oscuro gamer</span>
+            <span class="pill">Productos Nuevo/Refurbished</span>
+            <span class="pill">Stock bajo y agotados</span>
+            <span class="pill">Carrito persistente</span>
+            <span class="pill">Notas imprimibles</span>
+            <span class="pill">CSV para Excel</span>
+            <span class="pill">Tasas manuales</span>
+            <span class="pill">Historial de ventas</span>
+            <span class="pill">Responsive</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="wrap">
+        <div class="card cta">
+          <div>
+            <h2>Resultado esperado</h2>
+            <p class="small">
+              Menos dependencia de Excel, más visibilidad del stock y un flujo de venta simple:
+              buscar, agregar, cobrar, descontar stock e imprimir nota.
+            </p>
+          </div>
+          <a class="button" href="http://localhost:3000/dashboard">Abrir demo local</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="wrap">
+      Propuesta generada para PC Gamer Margarita. Documento descriptivo, no fiscal ni contractual.
+    </footer>
+  </body>
+</html>
