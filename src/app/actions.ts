@@ -4,7 +4,7 @@ import { revalidatePath } from "next/cache";
 import { redirect } from "next/navigation";
 import { prisma } from "@/lib/prisma";
 import { calculatePrices } from "@/lib/pricing";
-import { parseImportCsv, parseProductCondition, toCsv } from "@/lib/csv";
+import { parseImportCsv, parseProductActiveState, parseProductCondition, toCsv } from "@/lib/csv";
 import { categorySchema } from "@/schemas/categorySchema";
 import { exchangeRateSchema } from "@/schemas/exchangeRateSchema";
 import { productSchema } from "@/schemas/productSchema";
@@ -218,6 +218,11 @@ export async function importProductsFromCsv(formData: FormData) {
         errors++;
         continue;
       }
+      const isActive = parseProductActiveState(row.estado);
+      if (isActive === null) {
+        errors++;
+        continue;
+      }
       const prices = calculatePrices({ costUSD, baseSalePriceUSD, bcvRate, parallelRate });
       await prisma.product.create({
         data: {
@@ -227,6 +232,7 @@ export async function importProductsFromCsv(formData: FormData) {
           sku: row.sku || null,
           categoryId: category.id,
           condition,
+          isActive,
           stock: Number(row.stock ?? 0),
           minStock: Number(row.stockMinimo ?? 0),
           costUSD,

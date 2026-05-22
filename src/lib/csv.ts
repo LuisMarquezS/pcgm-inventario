@@ -30,6 +30,7 @@ export type ImportProductRow = {
   sku?: string;
   categoria?: string;
   condicion?: string;
+  estado?: string;
   stock?: string;
   stockMinimo?: string;
   costoUSD?: string;
@@ -57,4 +58,11 @@ export function parseProductCondition(value?: string) {
 
 export function productConditionLabel(condition: string | null | undefined) {
   return condition === "REFURBISHED" ? "Refurbished" : "Nuevo";
+}
+
+export function parseProductActiveState(value?: string) {
+  const normalized = (value || "activo").trim().toLowerCase();
+  if (["activo", "activa", "active", "true", "1", "si", "sí"].includes(normalized)) return true;
+  if (["inactivo", "inactiva", "inactive", "false", "0", "no"].includes(normalized)) return false;
+  return null;
 }
