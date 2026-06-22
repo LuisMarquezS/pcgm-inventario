@@ -1,5 +1,7 @@
 "use server";
 
+import { copyFile, mkdir } from "node:fs/promises";
+import path from "node:path";
 import { revalidatePath } from "next/cache";
 import { redirect } from "next/navigation";
 import { prisma } from "@/lib/prisma";
@@ -14,6 +16,47 @@ import { fetchCrystoDolarRates, saveRatesToDatabase } from "@/lib/exchange-rate-
 function value(formData: FormData, key: string) {
   const raw = formData.get(key);
   return typeof raw === "string" ? raw : undefined;
+}
+
+export async function wipeDatabase(formData: FormData) {
+  const confirmation = value(formData, "confirmation")?.trim();
+  if (confirmation !== "BORRAR TODO") {
+    return {
+      ok: false,
+      message: "Confirmacion incorrecta. Escribe BORRAR TODO para vaciar la base de datos.",
+    };
+  }
+
+  const prismaDir = path.join(process.cwd(), "prisma");
+  const dbPath = path.join(prismaDir, "dev.db");
+  const backupDir = path.join(prismaDir, "backups");
+  const stamp = new Date().toISOString().replace(/[:.]/g, "-");
+  const backupPath = path.join(backupDir, `dev.backup-before-wipe-${stamp}.db`);
+
+  await mkdir(backupDir, { recursive: true });
+  await copyFile(dbPath, backupPath);
+
+  await prisma.$transaction([
+    prisma.saleItem.deleteMany(),
+    prisma.sale.deleteMany(),
+    prisma.product.deleteMany(),
+    prisma.category.deleteMany(),
+    prisma.exchangeRate.deleteMany(),
+    prisma.settings.deleteMany(),
+  ]);
+
+  revalidatePath("/dashboard");
+  revalidatePath("/products");
+  revalidatePath("/categories");
+  revalidatePath("/exchange-rates");
+  revalidatePath("/sales");
+  revalidatePath("/settings");
+
+  return {
+    ok: true,
+    message: "Base de datos vaciada correctamente.",
+    backupPath,
+  };
 }
 
 export async function createCategory(formData: FormData) {

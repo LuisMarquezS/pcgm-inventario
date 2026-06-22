@@ -1,0 +1,726 @@
+nombre,marca,modelo,sku,categoria,condicion,estado,stock,stockMinimo,costoUSD,precioVentaBaseUSD
+Brazo para Microfono,,,BRAZO-PARA-MICROFONO,ACCESORIOS,nuevo,activo,6,1,0,0
+Capturadora de Video NZXT Signal,,,CAPTURADORA-DE-VIDEO-NZXT-SIGNAL,ACCESORIOS,nuevo,activo,0,1,0,0
+Capturadora de Video Redragon,,,CAPTURADORA-DE-VIDEO-REDRAGON,ACCESORIOS,nuevo,activo,0,1,0,0
+Consola de sonido Mixer Grande,,,CONSOLA-DE-SONIDO-MIXER-GRANDE,ACCESORIOS,nuevo,activo,2,1,0,0
+Convertidor Bluthooth carro,,,CONVERTIDOR-BLUTHOOTH-CARRO,ACCESORIOS,nuevo,activo,0,1,0,0
+Dedales gamer,,,DEDALES-GAMER,ACCESORIOS,nuevo,activo,0,1,0,0
+Extension de puertos USB PCIe orico,,,EXTENSION-DE-PUERTOS-USB-PCIE-ORIC,ACCESORIOS,nuevo,activo,0,1,0,0
+Fire Stick 4K,,,FIRE-STICK-4K,ACCESORIOS,nuevo,activo,0,1,0,0
+Fire Stick Tv HD,,,FIRE-STICK-TV-HD,ACCESORIOS,nuevo,activo,3,1,0,0
+"Game Box Ps5 mini, juego",,,GAME-BOX-PS5-MINI-JUEGO,ACCESORIOS,nuevo,activo,2,1,0,0
+Hub 3 Puertos,,,HUB-3-PUERTOS,ACCESORIOS,nuevo,activo,9,1,0,0
+Hub 4 en 1 4k,,,HUB-4-EN-1-4K,ACCESORIOS,nuevo,activo,2,1,0,0
+Hub 7 Puertos,,,HUB-7-PUERTOS,ACCESORIOS,nuevo,activo,1,1,0,0
+"Hub 8 multipuertos, caja amarilla",,,HUB-8-MULTIPUERTOS-CAJA-AMARILLA,ACCESORIOS,nuevo,activo,0,1,0,0
+Hub fan cooler caja gris,,,HUB-FAN-COOLER-CAJA-GRIS,COOLING,nuevo,activo,0,1,0,0
+Hub fan cooler interno pc,,,HUB-FAN-COOLER-INTERNO-PC,COOLING,nuevo,activo,0,1,0,0
+Kit de Destornilladores,,,KIT-DE-DESTORNILLADORES,ACCESORIOS,nuevo,activo,4,1,0,0
+Lector Macro SD,,,LECTOR-MACRO-SD,ACCESORIOS,nuevo,activo,3,1,0,0
+Lector Macro y Micro SD,,,LECTOR-MACRO-Y-MICRO-SD,ACCESORIOS,nuevo,activo,2,1,0,0
+Luces Led,,,LUCES-LED,ACCESORIOS,nuevo,activo,3,1,0,0
+Pantalla Streaming Redragon StreamCraf,,,PANTALLA-STREAMING-REDRAGON-STREAM,ACCESORIOS,nuevo,activo,1,1,0,0
+Pilas 2032,,,PILAS-2032,ACCESORIOS,nuevo,activo,0,1,0,0
+Repetidor WIFI,,,REPETIDOR-WIFI,ACCESORIOS,nuevo,activo,0,1,0,0
+Reposa Muñeca Redragon,,,REPOSA-MU-ECA-REDRAGON,ACCESORIOS,nuevo,activo,0,1,0,0
+Soporte para grafica,,,SOPORTE-PARA-GRAFICA,ACCESORIOS,nuevo,activo,3,1,0,0
+Spliter HDMI,,,SPLITER-HDMI,ACCESORIOS,nuevo,activo,0,1,0,0
+Switch Cudy 5 puertos gigabit,,,SWITCH-CUDY-5-PUERTOS-GIGABIT,ACCESORIOS,nuevo,activo,2,1,0,0
+Switch Cudy 8 puertos gigabit,,,SWITCH-CUDY-8-PUERTOS-GIGABIT,ACCESORIOS,nuevo,activo,0,1,0,0
+Switches HDMI,,,SWITCHES-HDMI,ACCESORIOS,nuevo,activo,0,1,0,0
+Tarjeta de Sonido blanca sencilla,,,TARJETA-DE-SONIDO-BLANCA-SENCILLA,ACCESORIOS,nuevo,activo,3,1,0,0
+Tarjeta de Sonido bolsita transparente,,,TARJETA-DE-SONIDO-BOLSITA-TRANSPAR,ACCESORIOS,nuevo,activo,1,1,0,0
+Tarjeta de sonido negra,,,TARJETA-DE-SONIDO-NEGRA,ACCESORIOS,nuevo,activo,0,1,0,0
+"Tarjeta de sonido Sound Blaster, caja negra",,,TARJETA-DE-SONIDO-SOUND-BLASTER-CA,ACCESORIOS,nuevo,activo,0,1,0,0
+Thermalpads (67=0.5 / 21=1.0 / 21=1.5),,,THERMALPADS-67-0-5-21-1-0-21-1-5,ACCESORIOS,nuevo,activo,0,1,0,0
+Bluethooth 5.0,,,BLUETHOOTH-5-0,ACCESORIOS,nuevo,activo,0,1,0,0
+Bluethooth 5.3,,,BLUETHOOTH-5-3,ACCESORIOS,nuevo,activo,6,1,0,0
+Bluetooth para carro,,,BLUETOOTH-PARA-CARRO,ACCESORIOS,nuevo,activo,5,1,0,0
+DP - HDMI,,,DP-HDMI,ACCESORIOS,nuevo,activo,15,1,0,0
+DP - VGA,,,DP-VGA,ACCESORIOS,nuevo,activo,0,1,0,0
+DVI - HDMI pequeño,,,DVI-HDMI-PEQUE-O,ACCESORIOS,nuevo,activo,4,1,0,0
+DVI - VGA,,,DVI-VGA,ACCESORIOS,nuevo,activo,7,1,0,0
+DVI - VGA pequeño,,,DVI-VGA-PEQUE-O,ACCESORIOS,nuevo,activo,0,1,0,0
+"ethernet - USB (Doble Banda), caja azul",,,ETHERNET-USB-DOBLE-BANDA-CAJA-AZUL,ACCESORIOS,nuevo,activo,0,1,0,0
+HDMI - USB,,,HDMI-USB,ACCESORIOS,nuevo,activo,0,1,0,0
+HDMI - VGA,,,HDMI-VGA,ACCESORIOS,nuevo,activo,16,1,0,0
+HDMI- Tipo C laptop,,,HDMI-TIPO-C-LAPTOP,ACCESORIOS,nuevo,activo,0,1,0,0
+Jack (1 a 2) cable Audio Y,,,JACK-1-A-2-CABLE-AUDIO-Y,ACCESORIOS,nuevo,activo,11,1,0,0
+Jack (2 a 1) cable Audio Y,,,JACK-2-A-1-CABLE-AUDIO-Y,ACCESORIOS,nuevo,activo,7,1,0,0
+RCA - Plug,,,RCA-PLUG,ACCESORIOS,nuevo,activo,0,1,0,0
+Tipo C - HDMI,,,TIPO-C-HDMI,ACCESORIOS,nuevo,activo,4,1,0,0
+Union de cable Lan,,,UNION-DE-CABLE-LAN,ACCESORIOS,nuevo,activo,9,1,0,0
+USB C a HDMI/VGA,,,USB-C-A-HDMI-VGA,ACCESORIOS,nuevo,activo,0,1,0,0
+VGA - HDMI (caja azul),,,VGA-HDMI-CAJA-AZUL,ACCESORIOS,nuevo,activo,0,1,0,0
+VGA - HDMI (caja verde),,,VGA-HDMI-CAJA-VERDE,ACCESORIOS,nuevo,activo,0,1,0,0
+externo 1 TB Kinspec,,,EXTERNO-1-TB-KINSPEC,ALMACENAMIENTO,nuevo,activo,0,1,0,0
+externo HDD 1 TB Seagate,,,EXTERNO-HDD-1-TB-SEAGATE,HDD,nuevo,activo,0,1,0,0
+externo HDD 1 TB Toshiba,,,EXTERNO-HDD-1-TB-TOSHIBA,HDD,nuevo,activo,0,1,0,0
+externo HDD 2 TB Seagate,,,EXTERNO-HDD-2-TB-SEAGATE,HDD,nuevo,activo,0,1,0,0
+externo HDD 2 TB Toshiba,,,EXTERNO-HDD-2-TB-TOSHIBA,HDD,nuevo,activo,0,1,0,0
+externo SSD 1 TB Crucial 1050 mb,,,EXTERNO-SSD-1-TB-CRUCIAL-1050-MB,SSD,nuevo,activo,0,1,0,0
+externo SSD 500 GB Adata,,,EXTERNO-SSD-500-GB-ADATA,SSD,nuevo,activo,0,1,0,0
+HDD 1 TB Refurb. WD Morado Gde.,,,HDD-1-TB-REFURB-WD-MORADO-GDE,HDD,refurbished,activo,0,1,0,0
+HDD 1 TB WD Azul,,,HDD-1-TB-WD-AZUL,HDD,nuevo,activo,0,1,0,0
+HDD 4 TB WD Morado Gde.,,,HDD-4-TB-WD-MORADO-GDE,HDD,nuevo,activo,0,1,0,0
+HDD 500 GB Refurb. Laptop Hitachi,,,HDD-500-GB-REFURB-LAPTOP-HITACHI,HDD,refurbished,activo,7,1,0,0
+HDD 500 GB Refurb. Laptop surtido,,,HDD-500-GB-REFURB-LAPTOP-SURTIDO,HDD,refurbished,activo,0,1,0,0
+HDD 500 GB Refurb. Seagate Gde.,,,HDD-500-GB-REFURB-SEAGATE-GDE,HDD,refurbished,activo,6,1,0,0
+HDD 500 GB Refurb. Toshiba Gde.,,,HDD-500-GB-REFURB-TOSHIBA-GDE,HDD,refurbished,activo,5,1,0,0
+HDD 500 GB Refurb. WD nuevo azul.,,,HDD-500-GB-REFURB-WD-NUEVO-AZUL,HDD,refurbished,activo,3,1,0,0
+HDD 500 GB Refurb. WD azul,,,HDD-500-GB-REFURB-WD-AZUL,HDD,refurbished,activo,7,1,0,0
+Micro SD 128 GB TeamGroup,,,MICRO-SD-128-GB-TEAMGROUP,ALMACENAMIENTO,nuevo,activo,5,1,0,0
+Micro SD 256 GB TeamGroup 4k,,,MICRO-SD-256-GB-TEAMGROUP-4K,ALMACENAMIENTO,nuevo,activo,2,1,0,0
+Micro SD 64 GB Patriot,,,MICRO-SD-64-GB-PATRIOT,ALMACENAMIENTO,nuevo,activo,5,1,0,0
+Pendrive 16 GB kingston,,,PENDRIVE-16-GB-KINGSTON,ALMACENAMIENTO,nuevo,activo,9,1,0,0
+Pendrive 128 GB kingston,,,PENDRIVE-128-GB-KINGSTON,ALMACENAMIENTO,nuevo,activo,4,1,0,0
+Pendrive 256 GB Sandisk,,,PENDRIVE-256-GB-SANDISK,ALMACENAMIENTO,nuevo,activo,2,1,0,0
+Pendrive 64 GB Kingston,,,PENDRIVE-64-GB-KINGSTON,ALMACENAMIENTO,nuevo,activo,0,1,0,0
+Pendrive 64 GB Teamgroup mini,,,PENDRIVE-64-GB-TEAMGROUP-MINI,ALMACENAMIENTO,nuevo,activo,2,1,0,0
+Pendrive 8 GB KINGSTON,,,PENDRIVE-8-GB-KINGSTON,ALMACENAMIENTO,nuevo,activo,7,1,0,0
+SSD 1 TB Crucial,,,SSD-1-TB-CRUCIAL,SSD,nuevo,activo,1,1,0,0
+SSD 1 TB Element,,,SSD-1-TB-ELEMENT,SSD,nuevo,activo,0,1,0,0
+SSD 1 TB Mushkin Element,,,SSD-1-TB-MUSHKIN-ELEMENT,SSD,nuevo,activo,2,1,0,0
+SSD 120 GB Kingston chino,,,SSD-120-GB-KINGSTON-CHINO,SSD,nuevo,activo,0,1,0,0
+SSD 120 GB Patriot,,,SSD-120-GB-PATRIOT,SSD,nuevo,activo,0,1,0,0
+SSD 128 GB caja azul,,,SSD-128-GB-CAJA-AZUL,SSD,nuevo,activo,0,1,0,0
+SSD 128 GB Hiksemi,,,SSD-128-GB-HIKSEMI,SSD,nuevo,activo,0,1,0,0
+SSD 240 GB Mushkin Element,,,SSD-240-GB-MUSHKIN-ELEMENT,SSD,nuevo,activo,4,1,0,0
+SSD 240 GB MSI,,,SSD-240-GB-MSI,SSD,nuevo,activo,0,1,0,0
+SSD 256 GB Hiksemi Hikvision,,,SSD-256-GB-HIKSEMI-HIKVISION,SSD,nuevo,activo,3,1,0,0
+SSD 256 GB Patriot,,,SSD-256-GB-PATRIOT,SSD,nuevo,activo,4,1,0,0
+SSD 480 GB Adata,,,SSD-480-GB-ADATA,SSD,nuevo,activo,6,1,0,0
+SSD 512 GB HIKSEMI,,,SSD-512-GB-HIKSEMI,SSD,nuevo,activo,2,1,0,0
+SSD 512 GB Patriot,,,SSD-512-GB-PATRIOT,SSD,nuevo,activo,0,1,0,0
+SSD 960 GB Kingston,,,SSD-960-GB-KINGSTON,SSD,nuevo,activo,0,1,0,0
+SSD 960 GB Lexar,,,SSD-960-GB-LEXAR,SSD,nuevo,activo,0,1,0,0
+SSD 960 GB Patriot,,,SSD-960-GB-PATRIOT,SSD,nuevo,activo,0,1,0,0
+SSD m.2 1 TB Kingston,,,SSD-M-2-1-TB-KINGSTON,SSD,nuevo,activo,0,1,0,0
+SSD m.2 1 TB MSI Spatium - 7000,,,SSD-M-2-1-TB-MSI-SPATIUM-7000,SSD,nuevo,activo,0,1,0,0
+SSD m.2 1 TB Samsung evo plus,,,SSD-M-2-1-TB-SAMSUNG-EVO-PLUS,SSD,nuevo,activo,0,1,0,0
+SSD m.2 1 TB Teamgroup - 7400,,,SSD-M-2-1-TB-TEAMGROUP-7400,SSD,nuevo,activo,0,1,0,0
+SSD m.2 128 GB (PEQ. SIN CAJA),,,SSD-M-2-128-GB-PEQ-SIN-CAJA,SSD,nuevo,activo,0,1,0,0
+SSD m.2 128 GB (SIN CAJA),,,SSD-M-2-128-GB-SIN-CAJA,SSD,nuevo,activo,0,1,0,0
+SSD m.2 128 GB Patriot - 2280,,,SSD-M-2-128-GB-PATRIOT-2280,SSD,nuevo,activo,3,1,0,0
+SSD m.2 960GB MSI,,,SSD-M-2-960GB-MSI,SSD,nuevo,activo,1,1,0,0
+SSD m.2 2 TB Patriot,,,SSD-M-2-2-TB-PATRIOT,SSD,nuevo,activo,1,1,0,0
+SSD m.2 2 TB Samsung evo plus,,,SSD-M-2-2-TB-SAMSUNG-EVO-PLUS,SSD,nuevo,activo,0,1,0,0
+SSD m.2 250 GB kingston copia,,,SSD-M-2-250-GB-KINGSTON-COPIA,SSD,nuevo,activo,0,1,0,0
+SSD m.2 256 GB 256GB HIKSEMI,,,SSD-M-2-256-GB-256GB-HIKSEMI,SSD,nuevo,activo,9,1,0,0
+SSD m.2 500 GB MSI,,,SSD-M-2-500-GB-MSI,SSD,nuevo,activo,1,1,0,0
+SSD m.2 500 GB Kingston,,,SSD-M-2-500-GB-KINGSTON,SSD,nuevo,activo,0,1,0,0
+SSD m.2 512 GB T-FORCE,,,SSD-M-2-512-GB-T-FORCE,SSD,nuevo,activo,1,1,0,0
+SSD m.2 512 GB Patriot,,,SSD-M-2-512-GB-PATRIOT,SSD,nuevo,activo,4,1,0,0
+SSD m.2 Sata 256 GB Timetec,,,SSD-M-2-SATA-256-GB-TIMETEC,SSD,nuevo,activo,5,1,0,0
+Wifi 2.4 Ghz 300 mbs sencilla,,,WIFI-2-4-GHZ-300-MBS-SENCILLA,ACCESORIOS,nuevo,activo,13,1,0,0
+Wifi Doble Banda 2.4 Ghz + 5Ghz,,,WIFI-DOBLE-BANDA-2-4-GHZ-5GHZ,ACCESORIOS,nuevo,activo,0,1,0,0
+wifi PCIe Ac1200 + Bluethooth,,,WIFI-PCIE-AC1200-BLUETHOOTH,ACCESORIOS,nuevo,activo,0,1,0,0
+wifi PCIe Ax1800 + Bluethooth,,,WIFI-PCIE-AX1800-BLUETHOOTH,ACCESORIOS,nuevo,activo,0,1,0,0
+Bluethooth F9-5,,,BLUETHOOTH-F9-5,AUDIFONOS,nuevo,activo,0,1,0,0
+Bluethooth JBL OWS,,,BLUETHOOTH-JBL-OWS,AUDIFONOS,nuevo,activo,0,1,0,0
+Bluethooth M-10,,,BLUETHOOTH-M-10,AUDIFONOS,nuevo,activo,1,1,0,0
+"Bluetooth JBL Bluetooth, caja naranja,Tiras",,,BLUETOOTH-JBL-BLUETOOTH-CAJA-NARAN,AUDIFONOS,nuevo,activo,6,1,0,0
+cable QKZ AK6,,,CABLE-QKZ-AK6,AUDIFONOS,nuevo,activo,10,1,0,0
+cable QKZ ENZO PRO,,,CABLE-QKZ-ENZO-PRO,AUDIFONOS,nuevo,activo,4,1,0,0
+cable QKZ AK6 pro,,,CABLE-QKZ-AK6-PRO,AUDIFONOS,nuevo,activo,4,1,0,0
+"cable Samsung, caja negra",,,CABLE-SAMSUNG-CAJA-NEGRA,AUDIFONOS,nuevo,activo,9,1,0,0
+"cable tipo C, caja blanca",,,CABLE-TIPO-C-CAJA-BLANCA,AUDIFONOS,nuevo,activo,2,1,0,0
+Corsair HS55,,,CORSAIR-HS55,AUDIFONOS,nuevo,activo,2,1,0,0
+Corsair Virtuoso RGB,,,CORSAIR-VIRTUOSO-RGB,AUDIFONOS,nuevo,activo,2,1,0,0
+Corsair void Wirelles V2,,,CORSAIR-VOID-WIRELLES-V2,AUDIFONOS,nuevo,activo,2,1,0,0
+Gamemax HG200,,,GAMEMAX-HG200,AUDIFONOS,nuevo,activo,3,1,0,0
+Gamemax HG300,,,GAMEMAX-HG300,AUDIFONOS,nuevo,activo,4,1,0,0
+"Genius, prueba tienda",,,GENIUS-PRUEBA-TIENDA,AUDIFONOS,nuevo,activo,0,1,0,0
+HiperX Cloud,,,HIPERX-CLOUD,AUDIFONOS,nuevo,activo,3,1,0,0
+HiperX Cloud II,,,HIPERX-CLOUD-II,AUDIFONOS,nuevo,activo,1,1,0,0
+HiperX Cloud III,,,HIPERX-CLOUD-III,AUDIFONOS,nuevo,activo,3,1,0,0
+JBL 200BT Casco Azul y Negro,,,JBL-200BT-CASCO-AZUL-Y-NEGRO,AUDIFONOS,nuevo,activo,0,1,0,0
+Maono AUMH601,,,MAONO-AUMH601,AUDIFONOS,nuevo,activo,2,1,0,0
+Onikuma k19,,,ONIKUMA-K19,AUDIFONOS,nuevo,activo,0,1,0,0
+Onikuma x31,,,ONIKUMA-X31,AUDIFONOS,nuevo,activo,5,1,0,0
+Onikuma T1,,,ONIKUMA-T1,AUDIFONOS,nuevo,activo,3,1,0,0
+Onikuma gt805,,,ONIKUMA-GT805,AUDIFONOS,nuevo,activo,2,1,0,0
+Razer Blackshark Hyperspedd wirelles,,,RAZER-BLACKSHARK-HYPERSPEDD-WIRELL,AUDIFONOS,nuevo,activo,2,1,0,0
+Razer Blackshark v2 X,,,RAZER-BLACKSHARK-V2-X,AUDIFONOS,nuevo,activo,0,1,0,0
+Razer Kraken v3 X (2 + 1 exi),,,RAZER-KRAKEN-V3-X-2-1-EXI,AUDIFONOS,nuevo,activo,3,1,0,0
+Redragon Ares,,,REDRAGON-ARES,AUDIFONOS,nuevo,activo,2,1,0,0
+Redragon Cronus,,,REDRAGON-CRONUS,AUDIFONOS,nuevo,activo,7,1,0,0
+Redragon Cybill,,,REDRAGON-CYBILL,AUDIFONOS,nuevo,activo,3,1,0,0
+Redragon Hylas,,,REDRAGON-HYLAS,AUDIFONOS,nuevo,activo,3,1,0,0
+Redragon IrePro,,,REDRAGON-IREPRO,AUDIFONOS,nuevo,activo,2,1,0,0
+Redragon Lamia II,,,REDRAGON-LAMIA-II,AUDIFONOS,nuevo,activo,4,1,0,0
+Redragon Vibecore H610 **,,,REDRAGON-VIBECORE-H610,AUDIFONOS,nuevo,activo,2,1,0,0
+Redragon Zeus X,,,REDRAGON-ZEUS-X,AUDIFONOS,nuevo,activo,0,1,0,0
+Redragon ZeusPro,,,REDRAGON-ZEUSPRO,AUDIFONOS,nuevo,activo,2,1,0,0
+Mchose v9,,,MCHOSE-V9,AUDIFONOS,nuevo,activo,2,1,0,0
+Mchose x9,,,MCHOSE-X9,AUDIFONOS,nuevo,activo,2,1,0,0
+T-wolf XY-212,,,T-WOLF-XY-212,AUDIFONOS,nuevo,activo,0,1,0,0
+"de Refrigeracion laptop 15.6""""",,,DE-REFRIGERACION-LAPTOP-15-6,COOLING,nuevo,activo,0,1,0,0
+"de Refrigeraicon 14""""",,,DE-REFRIGERAICON-14,ACCESORIOS,nuevo,activo,0,1,0,0
+para grafica palito,,,PARA-GRAFICA-PALITO,ACCESORIOS,nuevo,activo,0,1,0,0
+para monitor Doble,,,PARA-MONITOR-DOBLE,ACCESORIOS,nuevo,activo,0,1,0,0
+para monitor Fija caja marron cuadrada,,,PARA-MONITOR-FIJA-CAJA-MARRON-CUAD,ACCESORIOS,nuevo,activo,0,1,0,0
+Economico,,,ECONOMICO,ACCESORIOS,nuevo,activo,0,1,0,0
+HP,,,HP,ACCESORIOS,nuevo,activo,0,1,0,0
+Jemip,,,JEMIP,ACCESORIOS,nuevo,activo,0,1,0,0
+Redragon,,,REDRAGON,ACCESORIOS,nuevo,activo,0,1,0,0
+USB-VGA,,,USB-VGA,CABLES,nuevo,activo,4,1,0,0
+6 pines a sata,,,6-PINES-A-SATA,CABLES,nuevo,activo,0,1,0,0
+8 pines a 2 molex,,,8-PINES-A-2-MOLEX,CABLES,nuevo,activo,0,1,0,0
+Auxiliar,,,AUXILIAR,CABLES,nuevo,activo,0,1,0,0
+de corriente,,,DE-CORRIENTE,CABLES,nuevo,activo,0,1,0,0
+OTG-C-TIPO C,,,OTG-C-TIPO-C,CABLES,nuevo,activo,7,1,0,0
+DP- DP,,,DP-DP,CABLES,nuevo,activo,17,1,0,0
+DP- HDMI,,,DP-HDMI-2,CABLES,nuevo,activo,0,1,0,0
+extension USB,,,EXTENSION-USB,CABLES,nuevo,activo,6,1,0,0
+HDMI 4K 2K,,,HDMI-4K-2K,CABLES,nuevo,activo,17,1,0,0
+HDMI - DVI,,,HDMI-DVI,CABLES,nuevo,activo,0,1,0,0
+HDMI Mallado,,,HDMI-MALLADO,CABLES,nuevo,activo,13,1,0,0
+HDMI Sencillo,,,HDMI-SENCILLO,CABLES,nuevo,activo,14,1,0,0
+3 en 1 HDTV,,,3-EN-1-HDTV,CABLES,nuevo,activo,4,1,0,0
+Lan 1 metros Red,,,LAN-1-METROS-RED,CABLES,nuevo,activo,29,1,0,0
+Lan 10 metros Red,,,LAN-10-METROS-RED,CABLES,nuevo,activo,10,1,0,0
+Lan 5 metros Red,,,LAN-5-METROS-RED,CABLES,nuevo,activo,16,1,0,0
+Ligthing - USB 3 metros,,,LIGTHING-USB-3-METROS,CABLES,nuevo,activo,0,1,0,0
+Micro - USB 3 metros Cable normal,,,MICRO-USB-3-METROS-CABLE-NORMAL,CABLES,nuevo,activo,0,1,0,0
+"Molex a Sata, 2 molex a 1 sata",,,MOLEX-A-SATA-2-MOLEX-A-1-SATA,CABLES,nuevo,activo,0,1,0,0
+OTG - micro USB,,,OTG-MICRO-USB,CABLES,nuevo,activo,0,1,0,0
+OTG - USB,,,OTG-USB,CABLES,nuevo,activo,9,1,0,0
+para extension de fuente ASIANORSE,,,PARA-EXTENSION-DE-FUENTE-ASIANORSE,CABLES,nuevo,activo,0,1,0,0
+Sata - usb,,,SATA-USB,CABLES,nuevo,activo,9,1,0,0
+"sata a doble sata, corriente",,,SATA-A-DOBLE-SATA-CORRIENTE,CABLES,nuevo,activo,0,1,0,0
+sata a molex,,,SATA-A-MOLEX,CABLES,nuevo,activo,0,1,0,0
+Sata interno Pc,,,SATA-INTERNO-PC,CABLES,nuevo,activo,0,1,0,0
+HDMI 4K 10 mtr,,,HDMI-4K-10-MTR,CABLES,nuevo,activo,4,1,0,0
+tipo C - Tipo C 1 metro,,,TIPO-C-TIPO-C-1-METRO,CABLES,nuevo,activo,0,1,0,0
+USB C - Xiomi,,,USB-C-XIOMI,CABLES,nuevo,activo,3,1,0,0
+VGA,,,VGA,CABLES,nuevo,activo,10,1,0,0
+Redragon Cyberleans 4K,,,REDRAGON-CYBERLEANS-4K,ACCESORIOS,nuevo,activo,2,1,0,0
+Redragon Fobos,,,REDRAGON-FOBOS,ACCESORIOS,nuevo,activo,1,1,0,0
+Redragon Hitman,,,REDRAGON-HITMAN,ACCESORIOS,nuevo,activo,2,1,0,0
+Tp-link Tapo,,,TP-LINK-TAPO,ACCESORIOS,nuevo,activo,0,1,0,0
+Generico imexx,,,GENERICO-IMEXX,ACCESORIOS,nuevo,activo,0,1,0,0
+Laptop ACER punta Fina en caja,,,LAPTOP-ACER-PUNTA-FINA-EN-CAJA,ACCESORIOS,nuevo,activo,8,1,0,0
+Laptop ASUS punta Fina en caja,,,LAPTOP-ASUS-PUNTA-FINA-EN-CAJA,ACCESORIOS,nuevo,activo,11,1,0,0
+Laptop ASUS punta tipo C en caja,,,LAPTOP-ASUS-PUNTA-TIPO-C-EN-CAJA,ACCESORIOS,nuevo,activo,3,1,0,0
+Laptop Dell punta gorda en caja,,,LAPTOP-DELL-PUNTA-GORDA-EN-CAJA,ACCESORIOS,nuevo,activo,0,1,0,0
+Laptop Dell punta gorda sin caja,,,LAPTOP-DELL-PUNTA-GORDA-SIN-CAJA,ACCESORIOS,nuevo,activo,0,1,0,0
+Laptop Dell punta tipo C sin caja,,,LAPTOP-DELL-PUNTA-TIPO-C-SIN-CAJA,ACCESORIOS,nuevo,activo,0,1,0,0
+"Laptop HP punta azul, refurbished",,,LAPTOP-HP-PUNTA-AZUL-REFURBISHED,ACCESORIOS,refurbished,activo,0,1,0,0
+Laptop Lenovo punta cuadrada sin caja,,,LAPTOP-LENOVO-PUNTA-CUADRADA-SIN-C,ACCESORIOS,nuevo,activo,0,1,0,0
+Laptop Lenovo punta redonda Fina,,,LAPTOP-LENOVO-PUNTA-REDONDA-FINA,ACCESORIOS,nuevo,activo,5,1,0,0
+Xiaomi con cable 33W,,,XIAOMI-CON-CABLE-33W,ACCESORIOS,nuevo,activo,7,1,0,0
+Aerocool Scape,,,AEROCOOL-SCAPE,CASE,nuevo,activo,0,1,0,0
+AST con fuente,,,AST-CON-FUENTE,CASE,nuevo,activo,2,1,0,0
+AST GQ31,,,AST-GQ31,CASE,nuevo,activo,0,1,0,0
+AST pecera,,,AST-PECERA,CASE,nuevo,activo,2,1,0,0
+AST sin fuente,,,AST-SIN-FUENTE,CASE,nuevo,activo,0,1,0,0
+Azza Luminous 110 Negro,,,AZZA-LUMINOUS-110-NEGRO,CASE,nuevo,activo,1,1,0,0
+Cooler Master Box MB511 Negro,,,COOLER-MASTER-BOX-MB511-NEGRO,COOLING,nuevo,activo,1,1,0,0
+Cooler Master Kayfa,,,COOLER-MASTER-KAYFA,COOLING,nuevo,activo,0,1,0,0
+Cooler Master TD300 Black,,,COOLER-MASTER-TD300-BLACK,COOLING,nuevo,activo,0,1,0,0
+Cooler Master TD300 White mesh,,,COOLER-MASTER-TD300-WHITE-MESH,COOLING,nuevo,activo,1,1,0,0
+Corsair 3000D,,,CORSAIR-3000D,CASE,nuevo,activo,1,1,0,0
+Gamemax Aero,,,GAMEMAX-AERO,CASE,nuevo,activo,2,1,0,0
+Gamemax Black Diamond,,,GAMEMAX-BLACK-DIAMOND,CASE,nuevo,activo,1,1,0,0
+Gamemax Black Hole,,,GAMEMAX-BLACK-HOLE,CASE,nuevo,activo,1,1,0,0
+jenip super nova blanco,,,JENIP-SUPER-NOVA-BLANCO,CASE,nuevo,activo,2,1,0,0
+Jenip nebula black 1.5,,,JENIP-NEBULA-BLACK-1-5,CASE,nuevo,activo,2,1,0,0
+jenip clarity black,,,JENIP-CLARITY-BLACK,CASE,nuevo,activo,2,1,0,0
+Gamemax Infinity,,,GAMEMAX-INFINITY,CASE,nuevo,activo,1,1,0,0
+Gamemax Nova N2,,,GAMEMAX-NOVA-N2,CASE,nuevo,activo,0,1,0,0
+Gamemax Nova N6,,,GAMEMAX-NOVA-N6,CASE,nuevo,activo,0,1,0,0
+Gamemax Nova N80,,,GAMEMAX-NOVA-N80,CASE,nuevo,activo,0,1,0,0
+Gamemax silent Titan 2,,,GAMEMAX-SILENT-TITAN-2,CASE,nuevo,activo,1,1,0,0
+Gamemax Vista AB,,,GAMEMAX-VISTA-AB,CASE,nuevo,activo,0,1,0,0
+Gamemax Vista AW Blanco,,,GAMEMAX-VISTA-AW-BLANCO,CASE,nuevo,activo,2,1,0,0
+Gamemax Vista COC AW Blanco,,,GAMEMAX-VISTA-COC-AW-BLANCO,CASE,nuevo,activo,1,1,0,0
+Gamemax white Diamond,,,GAMEMAX-WHITE-DIAMOND,CASE,nuevo,activo,0,1,0,0
+Spectra Blanco,,,SPECTRA-BLANCO,CASE,nuevo,activo,0,1,0,0
+tesseract pro con pantalla,,,TESSERACT-PRO-CON-PANTALLA,CASE,nuevo,activo,0,1,0,0
+thermaltake Core V1 - cuadrado TIENDA,,,THERMALTAKE-CORE-V1-CUADRADO-TIEND,CASE,nuevo,activo,0,1,0,0
+Ucing Blanco X-2 chino,,,UCING-BLANCO-X-2-CHINO,CASE,nuevo,activo,0,1,0,0
+XPG Starker,,,XPG-STARKER,CASE,nuevo,activo,1,1,0,0
+Zalman T7,,,ZALMAN-T7,CASE,nuevo,activo,0,1,0,0
+Fire Tv Stick,,,FIRE-TV-STICK,CONTROL,nuevo,activo,8,1,0,0
+Gamesir Kaleid,,,GAMESIR-KALEID,CONTROL,nuevo,activo,0,1,0,0
+Play 2,,,PLAY-2,CONTROL,nuevo,activo,1,1,0,0
+Play 3,,,PLAY-3,CONTROL,nuevo,activo,1,1,0,0
+Play 4,,,PLAY-4,CONTROL,nuevo,activo,7,1,0,0
+Play 5,,,PLAY-5,CONTROL,nuevo,activo,6,1,0,0
+Power A Xbox,,,POWER-A-XBOX,CONTROL,nuevo,activo,3,1,0,0
+Redragon Forge G711,,,REDRAGON-FORGE-G711,CONTROL,nuevo,activo,0,1,0,0
+Redragon Harrow,,,REDRAGON-HARROW,CONTROL,nuevo,activo,3,1,0,0
+Redragon Harrow Pro (2 revision),,,REDRAGON-HARROW-PRO-2-REVISION,CONTROL,nuevo,activo,3,1,0,0
+Redragon Rift G710,,,REDRAGON-RIFT-G710,CONTROL,nuevo,activo,3,1,0,0
+Redragon Sarturn,,,REDRAGON-SARTURN,CONTROL,nuevo,activo,0,1,0,0
+Xbox 360,,,XBOX-360,CONTROL,nuevo,activo,1,1,0,0
+Xbox Inalámbrico ORIGINAL,,,XBOX-INALAMBRICO-ORIGINAL,CONTROL,nuevo,activo,6,1,0,0
+Xbox PDP,,,XBOX-PDP,CONTROL,nuevo,activo,3,1,0,0
+economica Astron,,,ECONOMICA-ASTRON,ACCESORIOS,nuevo,activo,0,1,0,0
+Genius 2.1 Bluetooth,,,GENIUS-2-1-BLUETOOTH,ACCESORIOS,nuevo,activo,0,1,0,0
+Redragon Darknets,,,REDRAGON-DARKNETS,ACCESORIOS,nuevo,activo,0,1,0,0
+Redragon Gaming Sound Bar,,,REDRAGON-GAMING-SOUND-BAR,ACCESORIOS,nuevo,activo,0,1,0,0
+T-wolf A60,,,T-WOLF-A60,ACCESORIOS,nuevo,activo,0,1,0,0
+T-Wolf S4 (Barra de Sonido),,,T-WOLF-S4-BARRA-DE-SONIDO,ACCESORIOS,nuevo,activo,3,1,0,0
+T-Wolf S7,,,T-WOLF-S7,ACCESORIOS,nuevo,activo,1,1,0,0
+AST,,,AST,COOLING,nuevo,activo,3,1,0,0
+de Torre A02 Chino,,,DE-TORRE-A02-CHINO,COOLING,nuevo,activo,2,1,0,0
+de Torre A02 Pro Chino,,,DE-TORRE-A02-PRO-CHINO,COOLING,nuevo,activo,6,1,0,0
+de Torre A06 rgb chino,,,DE-TORRE-A06-RGB-CHINO,COOLING,nuevo,activo,2,1,0,0
+intel,,,INTEL,COOLING,nuevo,activo,18,1,0,0
+AMD CAJA NEGRA,,,AMD-CAJA-NEGRA,COOLING,nuevo,activo,3,1,0,0
+Master Titan 01B,,,MASTER-TITAN-01B,COOLING,nuevo,activo,4,1,0,0
+HYPER 212 spectrum v3,,,HYPER-212-SPECTRUM-V3,COOLING,nuevo,activo,2,1,0,0
+cady Interno,,,CADY-INTERNO,ACCESORIOS,nuevo,activo,0,1,0,0
+HDD Grande,,,HDD-GRANDE,ACCESORIOS,nuevo,activo,3,1,0,0
+m.2 Nvme Orico,,,M-2-NVME-ORICO,ACCESORIOS,nuevo,activo,2,1,0,0
+SSD chino,,,SSD-CHINO,ACCESORIOS,nuevo,activo,0,1,0,0
+SSD UP,,,SSD-UP,ACCESORIOS,nuevo,activo,4,1,0,0
+Equipo PC Nueva i5 4ta. Grande,,,EQUIPO-PC-NUEVA-I5-4TA-GRANDE,EQUIPO,nuevo,activo,1,1,0,0
+Equipo PC Nueva Ryzen 3 3200G - 8-256,,,EQUIPO-PC-NUEVA-RYZEN-3-3200G-8-25,EQUIPO,nuevo,activo,0,1,0,0
+Equipo PC Refurbished Dell i3 - 2da.,,,EQUIPO-PC-REFURBISHED-DELL-I3-2DA,EQUIPO,refurbished,activo,1,1,0,0
+Equipo PC Refurbished Dell i3 - 3era.,,,EQUIPO-PC-REFURBISHED-DELL-I3-3ERA,EQUIPO,refurbished,activo,0,1,0,0
+Equipo PC Refurbished Dell i5 - 3era.,,,EQUIPO-PC-REFURBISHED-DELL-I5-3ERA,EQUIPO,refurbished,activo,5,1,0,0
+Equipo PC Refurbished Dell i5 - 4ta. 8 Gb,,,EQUIPO-PC-REFURBISHED-DELL-I5-4TA-,EQUIPO,refurbished,activo,5,1,0,0
+Equipo PC Refurbished Dell i5 - 6ta.,,,EQUIPO-PC-REFURBISHED-DELL-I5-6TA,EQUIPO,refurbished,activo,1,1,0,0
+Equipo PC Refurbished Dell i5 - 7ma. 4Gb,,,EQUIPO-PC-REFURBISHED-DELL-I5-7MA-,EQUIPO,refurbished,activo,0,1,0,0
+Equipo PC Refurbished Dell i5 7ma 8Gb,,,EQUIPO-PC-REFURBISHED-DELL-I5-7MA--2,EQUIPO,refurbished,activo,3,1,0,0
+Equipo PC Refurbished Dell i7 - 3era,,,EQUIPO-PC-REFURBISHED-DELL-I7-3ERA,EQUIPO,refurbished,activo,0,1,0,0
+Equipo PC Refurbished Dell i7 - 6ta,,,EQUIPO-PC-REFURBISHED-DELL-I7-6TA,EQUIPO,refurbished,activo,2,1,0,0
+Equipo PC Refurbished HP i3 - 6ta.8 Gb,,,EQUIPO-PC-REFURBISHED-HP-I3-6TA-8-,EQUIPO,refurbished,activo,1,1,0,0
+Equipo PC Refurbished Lenovo i5 - 6ta.,,,EQUIPO-PC-REFURBISHED-LENOVO-I5-6T,EQUIPO,refurbished,activo,1,1,0,0
+Equipo PC Refurbished Lenovo i5 - 7ma.,,,EQUIPO-PC-REFURBISHED-LENOVO-I5-7M,EQUIPO,refurbished,activo,0,1,0,0
+Equipo Todo en Uno MSI Tactil AP162,,,EQUIPO-TODO-EN-UNO-MSI-TACTIL-AP16,EQUIPO,nuevo,activo,0,1,0,0
+Equipo Todo en Uno Surtida hp y (1 dañada dell),,,EQUIPO-TODO-EN-UNO-SURTIDA-HP-Y-1-,EQUIPO,nuevo,activo,0,1,0,0
+Escritorio Gaming,,,ESCRITORIO-GAMING,ESCRITORIO,nuevo,activo,0,1,0,0
+cooler 3 in 1 medusa,,,COOLER-3-IN-1-MEDUSA,COOLING,nuevo,activo,1,1,0,0
+cooler 3 in 1 arcane,,,COOLER-3-IN-1-ARCANE,COOLING,nuevo,activo,1,1,0,0
+cooler 3 in 1 rage,,,COOLER-3-IN-1-RAGE,COOLING,nuevo,activo,1,1,0,0
+aerocool Frost 12,,,AEROCOOL-FROST-12,COOLING,nuevo,activo,1,1,0,0
+aerocool Jemip Negro,,,AEROCOOL-JEMIP-NEGRO,COOLING,nuevo,activo,0,1,0,0
+Cooler inplay - raimbow,,,COOLER-INPLAY-RAIMBOW,COOLING,nuevo,activo,5,1,0,0
+Cooler Kit 3 en 1 One,,,COOLER-KIT-3-EN-1-ONE,COOLING,nuevo,activo,4,1,0,0
+Cooler Kit 4 en 1 Gamemax,,,COOLER-KIT-4-EN-1-GAMEMAX,COOLING,nuevo,activo,0,1,0,0
+Cooler ICE WHALE caja negra,,,COOLER-ICE-WHALE-CAJA-NEGRA,COOLING,nuevo,activo,3,1,0,0
+cooler X1-Case Fan (caja amarillo con negro),,,COOLER-X1-CASE-FAN-CAJA-AMARILLO-C,COOLING,nuevo,activo,5,1,0,0
+Grafica,,,GRAFICA,COOLING,nuevo,activo,0,1,0,0
+Certificada 1000 Rosewill CMG G5,,,CERTIFICADA-1000-ROSEWILL-CMG-G5,PSU,nuevo,activo,0,1,0,0
+Certificada 1000 W MSI MAC a1000 gs PCIe,,,CERTIFICADA-1000-W-MSI-MAC-A1000-G,PSU,nuevo,activo,0,1,0,0
+Certificada 1250 W Gamemax Rampage,,,CERTIFICADA-1250-W-GAMEMAX-RAMPAGE,PSU,nuevo,activo,1,1,0,0
+Certificada 500 W Mlogis,,,CERTIFICADA-500-W-MLOGIS,PSU,nuevo,activo,2,1,0,0
+Certificada 600 W Mlogis,,,CERTIFICADA-600-W-MLOGIS,PSU,nuevo,activo,2,1,0,0
+Certificada 600 W MSI,,,CERTIFICADA-600-W-MSI,PSU,nuevo,activo,0,1,0,0
+Certificada 650 W MSI A650 BN,,,CERTIFICADA-650-W-MSI-A650-BN,PSU,nuevo,activo,1,1,0,0
+Certificada 650 W Thermaltake,,,CERTIFICADA-650-W-THERMALTAKE,PSU,nuevo,activo,1,1,0,0
+Certificada 650 W Thermaltake smart bm3,,,CERTIFICADA-650-W-THERMALTAKE-SMAR,PSU,nuevo,activo,0,1,0,0
+certificada 700W Gamemax VPRGBmodular,,,CERTIFICADA-700W-GAMEMAX-VPRGBMODU,PSU,nuevo,activo,1,1,0,0
+certificada 700W VP SERIES,,,CERTIFICADA-700W-VP-SERIES,PSU,nuevo,activo,1,1,0,0
+certificada 700W Gamemax Blanca RGB,,,CERTIFICADA-700W-GAMEMAX-BLANCA-RG,PSU,nuevo,activo,0,1,0,0
+certificada 700W Gamemax GM,,,CERTIFICADA-700W-GAMEMAX-GM,PSU,nuevo,activo,1,1,0,0
+Certificada 750 W Corsair cx,,,CERTIFICADA-750-W-CORSAIR-CX,PSU,nuevo,activo,3,1,0,0
+Certificada 750W Mlogis,,,CERTIFICADA-750W-MLOGIS,PSU,nuevo,activo,3,1,0,0
+Certificada 800W Gamemax,,,CERTIFICADA-800W-GAMEMAX,PSU,nuevo,activo,0,1,0,0
+Certificada 850W Gamemax,,,CERTIFICADA-850W-GAMEMAX,PSU,nuevo,activo,1,1,0,0
+Generica 650 W Wind Ice,,,GENERICA-650-W-WIND-ICE,PSU,nuevo,activo,5,1,0,0
+Generica One 650W,,,GENERICA-ONE-650W,PSU,nuevo,activo,2,1,0,0
+"para laptop 14"""" colores",,,PARA-LAPTOP-14-COLORES,ACCESORIOS,nuevo,activo,0,1,0,0
+"para laptop 14""""HP Reversible",,,PARA-LAPTOP-14-HP-REVERSIBLE,ACCESORIOS,nuevo,activo,0,1,0,0
+"para laptop 15.6"""" colores",,,PARA-LAPTOP-15-6-COLORES,ACCESORIOS,nuevo,activo,0,1,0,0
+"para laptop 16""""",,,PARA-LAPTOP-16,ACCESORIOS,nuevo,activo,0,1,0,0
+para laptop Negro Uproducts,,,PARA-LAPTOP-NEGRO-UPRODUCTS,ACCESORIOS,nuevo,activo,0,1,0,0
+A310 - 4 GB Intel Arc - Asrock,,,A310-4-GB-INTEL-ARC-ASROCK,GPU,nuevo,activo,0,1,0,0
+GT 730 - 2 GB AMD,,,GT-730-2-GB-AMD,GPU,nuevo,activo,0,1,0,0
+GTX 1050 - 8GB- Zotac,,,GTX-1050-8GB-ZOTAC,GPU,nuevo,activo,0,1,0,0
+GTX 1070 Ti - 8GB- ASUS,,,GTX-1070-TI-8GB-ASUS,GPU,nuevo,activo,1,1,0,0
+GTX 750 TI - 4 GB - Arteck,,,GTX-750-TI-4-GB-ARTECK,GPU,nuevo,activo,1,1,0,0
+R5 430 - 1 GB AMD,,,R5-430-1-GB-AMD,GPU,nuevo,activo,2,1,0,0
+R5 430 - 2 GB AMD,,,R5-430-2-GB-AMD,GPU,nuevo,activo,4,1,0,0
+RX 550 - 4 GB- RADEON,,,RX-550-4-GB-RADEON,GPU,nuevo,activo,2,1,0,0
+RTX 2070 SUPER EVGA 8GB,,,RTX-2070-SUPER-EVGA-8GB,GPU,nuevo,activo,1,1,0,0
+RTX 5060 ZOTAC 8 GB,,,RTX-5060-ZOTAC-8-GB,GPU,nuevo,activo,1,1,0,0
+RTX 2060 - 6 GB Geforce Zotac,,,RTX-2060-6-GB-GEFORCE-ZOTAC,GPU,nuevo,activo,0,1,0,0
+RTX 2060 - 6 GB MSI Ventus Geforce,,,RTX-2060-6-GB-MSI-VENTUS-GEFORCE,GPU,nuevo,activo,0,1,0,0
+RTX 2060 Super - 8 GB EVGA Geforce,,,RTX-2060-SUPER-8-GB-EVGA-GEFORCE,GPU,nuevo,activo,0,1,0,0
+RTX 2070 Super- MSI,,,RTX-2070-SUPER-MSI,GPU,nuevo,activo,0,1,0,0
+RTX 3050 - 6 GB - MSI Ventus 2X,,,RTX-3050-6-GB-MSI-VENTUS-2X,GPU,nuevo,activo,1,1,0,0
+INTEL A310 - 4GB,,,INTEL-A310-4GB,GPU,nuevo,activo,1,1,0,0
+RTX 3060 - 12 GB MSI Ventus 2X,,,RTX-3060-12-GB-MSI-VENTUS-2X,GPU,nuevo,activo,0,1,0,0
+RTX 5050 - 8 Gb - Asus,,,RTX-5050-8-GB-ASUS,GPU,nuevo,activo,0,1,0,0
+RTX 5060 - 8 GB- Msi Shadow,,,RTX-5060-8-GB-MSI-SHADOW,GPU,nuevo,activo,0,1,0,0
+RTX 5060 - 8 GbB - Zota Gaming AMP,,,RTX-5060-8-GBB-ZOTA-GAMING-AMP,GPU,nuevo,activo,0,1,0,0
+RTX 5500 8 GB AFOX,,,RTX-5500-8-GB-AFOX,GPU,nuevo,activo,1,1,0,0
+RTX 5060 Ti - MSI,,,RTX-5060-TI-MSI,GPU,nuevo,activo,1,1,0,0
+RTX 5070 - 12 Gb - Asus Prime,,,RTX-5070-12-GB-ASUS-PRIME,GPU,nuevo,activo,0,1,0,0
+RX 470 - 4GB Aisurux,,,RX-470-4GB-AISURUX,GPU,nuevo,activo,0,1,0,0
+RX 550 - 8 GB ARTECK,,,RX-550-8-GB-ARTECK,GPU,nuevo,activo,1,1,0,0
+RX 580 - 8GB - JENIP,,,RX-580-8GB-JENIP,GPU,nuevo,activo,1,1,0,0
+RX 580 - 4gb - safiri,,,RX-580-4GB-SAFIRI,GPU,nuevo,activo,0,1,0,0
+RX 6600XT- 8 GB -XFX,,,RX-6600XT-8-GB-XFX,GPU,nuevo,activo,0,1,0,0
+RX 6700 XT - 12 GB MSI,,,RX-6700-XT-12-GB-MSI,GPU,nuevo,activo,0,1,0,0
+RX 9060 XT - 16 GB ASUS AMD,,,RX-9060-XT-16-GB-ASUS-AMD,GPU,nuevo,activo,0,1,0,0
+RX 9060 XT - 8 GB XFX,,,RX-9060-XT-8-GB-XFX,GPU,nuevo,activo,1,1,0,0
+RX 9070 XT - 16 GB - Asrock,,,RX-9070-XT-16-GB-ASROCK,GPU,nuevo,activo,1,1,0,0
+RX Vega 64 - 8 GB - XFX -XFX,,,RX-VEGA-64-8-GB-XFX-XFX,GPU,nuevo,activo,1,1,0,0
+Impresora Canon G1130,,,IMPRESORA-CANON-G1130,IMPRESORA,nuevo,activo,2,1,0,0
+Impresora canon G3180,,,IMPRESORA-CANON-G3180,IMPRESORA,nuevo,activo,2,1,0,0
+Impresora Epson L3250,,,IMPRESORA-EPSON-L3250,IMPRESORA,nuevo,activo,2,1,0,0
+Laptop nueva Acer i5-13va. 8-256,,,LAPTOP-NUEVA-ACER-I5-13VA-8-256,LAPTOP,nuevo,activo,1,1,0,0
+Laptop nueva Acer RYZEN 5 7000 8-256,,,LAPTOP-NUEVA-ACER-RYZEN-5-7000-8-2,LAPTOP,nuevo,activo,1,1,0,0
+Laptop nueva Acer i5-13va/16/512 + RTX 4050,,,LAPTOP-NUEVA-ACER-I5-13VA-16-512-R,LAPTOP,nuevo,activo,1,1,0,0
+Laptop nueva Asus i3 13va. 8-128,,,LAPTOP-NUEVA-ASUS-I3-13VA-8-128,LAPTOP,nuevo,activo,1,1,0,0
+Laptop nueva Asus i3 N305,,,LAPTOP-NUEVA-ASUS-I3-N305,LAPTOP,nuevo,activo,0,1,0,0
+Laptop nueva Asus i7-13va. 16-512,,,LAPTOP-NUEVA-ASUS-I7-13VA-16-512,LAPTOP,nuevo,activo,0,1,0,0
+Laptop nueva Asus Ryzen 3 / 8 /128,,,LAPTOP-NUEVA-ASUS-RYZEN-3-8-128,LAPTOP,nuevo,activo,0,1,0,0
+Laptop nueva Asus Tuf Ryzen 5/16/512 + RTX 2050,,,LAPTOP-NUEVA-ASUS-TUF-RYZEN-5-16-5,LAPTOP,nuevo,activo,0,1,0,0
+Laptop nueva Asus Tuf Ryzen 5/16/512 + RTX 4060,,,LAPTOP-NUEVA-ASUS-TUF-RYZEN-5-16-5-2,LAPTOP,nuevo,activo,0,1,0,0
+Laptop nueva Compag ryzen 3 16-256,,,LAPTOP-NUEVA-COMPAG-RYZEN-3-16-256,LAPTOP,nuevo,activo,1,1,0,0
+Laptop nueva Compag Ryzen 7 5825U / 16 -512,,,LAPTOP-NUEVA-COMPAG-RYZEN-7-5825U-,LAPTOP,nuevo,activo,2,1,0,0
+"Laptop nueva HP Core ultra 7- 16""""-16gb - 1 tb",,,LAPTOP-NUEVA-HP-CORE-ULTRA-7-16-16,LAPTOP,nuevo,activo,0,1,0,0
+Laptop Nueva HP intel core 7 ultra / 16 -512 tactil,,,LAPTOP-NUEVA-HP-INTEL-CORE-7-ULTRA,LAPTOP,nuevo,activo,1,1,0,0
+Laptop Nueva HP intel core 7 ultra /16/1tb,,,LAPTOP-NUEVA-HP-INTEL-CORE-7-ULTRA-2,LAPTOP,nuevo,activo,0,1,0,0
+Laptop nueva HP N150 8 /128,,,LAPTOP-NUEVA-HP-N150-8-128,LAPTOP,nuevo,activo,2,1,0,0
+Laptop nueva HP N150 8 /256,,,LAPTOP-NUEVA-HP-N150-8-256,LAPTOP,nuevo,activo,0,1,0,0
+Laptop nueva HP Ryzen 5-7520 / 8-256,,,LAPTOP-NUEVA-HP-RYZEN-5-7520-8-256,LAPTOP,nuevo,activo,2,1,0,0
+Laptop Nueva HP Ryzen 3 -8-128,,,LAPTOP-NUEVA-HP-RYZEN-3-8-128,LAPTOP,nuevo,activo,2,1,0,0
+Laptop nueva HP victus i5-13va. /8/512 + RTX 3050,,,LAPTOP-NUEVA-HP-VICTUS-I5-13VA-8-5,LAPTOP,nuevo,activo,2,1,0,0
+Laptop nueva HP victus Ryzen 5 /16/512 + RX 6650,,,LAPTOP-NUEVA-HP-VICTUS-RYZEN-5-16-,LAPTOP,nuevo,activo,0,1,0,0
+Laptop nueva Jemip Celeron N4020 8/256,,,LAPTOP-NUEVA-JEMIP-CELERON-N4020-8,LAPTOP,nuevo,activo,2,1,0,0
+Laptop nueva Lenovo i7 13620H 8/256,,,LAPTOP-NUEVA-LENOVO-I7-13620H-8-25,LAPTOP,nuevo,activo,0,1,0,0
+Laptop nueva Lenovo i5 13450HX 16/1TB,,,LAPTOP-NUEVA-LENOVO-I5-13450HX-16-,LAPTOP,nuevo,activo,1,1,0,0
+"Laptop nueva Lenovo Amd Athlon 3050 - 8-128 15.6""""",,,LAPTOP-NUEVA-LENOVO-AMD-ATHLON-305,LAPTOP,nuevo,activo,2,1,0,0
+Laptop nueva Lenovo i5-13va. 16-256,,,LAPTOP-NUEVA-LENOVO-I5-13VA-16-256,LAPTOP,nuevo,activo,2,1,0,0
+Laptop nueva lenovo intel core n4500 celeron,,,LAPTOP-NUEVA-LENOVO-INTEL-CORE-N45,LAPTOP,nuevo,activo,1,1,0,0
+Laptop nueva lenovo i5 1335U 16ram/256gb almac.,,,LAPTOP-NUEVA-LENOVO-I5-1335U-16RAM,LAPTOP,nuevo,activo,1,1,0,0
+Laptop nueva lenovo intel N4500 4ram/128gb almac.,,,LAPTOP-NUEVA-LENOVO-INTEL-N4500-4R,LAPTOP,nuevo,activo,1,1,0,0
+Laptop nueva Lenovo Ryzen 3 7000 8-256.,,,LAPTOP-NUEVA-LENOVO-RYZEN-3-7000-8,LAPTOP,nuevo,activo,0,1,0,0
+Laptop nueva Lenovo Ryzen 5- 7520u 8-256,,,LAPTOP-NUEVA-LENOVO-RYZEN-5-7520U-,LAPTOP,nuevo,activo,1,1,0,0
+Laptop nueva MSI i5-13va/ 16/512 + RTX 3050,,,LAPTOP-NUEVA-MSI-I5-13VA-16-512-RT,LAPTOP,nuevo,activo,0,1,0,0
+Laptop nueva MSI i7/ 32/1 TB + RTX 5070,,,LAPTOP-NUEVA-MSI-I7-32-1-TB-RTX-50,LAPTOP,nuevo,activo,1,1,0,0
+Laptop nueva MSI Ryzen 5/ 16/512 + RTX 4050,,,LAPTOP-NUEVA-MSI-RYZEN-5-16-512-RT,LAPTOP,nuevo,activo,0,1,0,0
+Laptop Refurb. Dell i5-10ma. 14 16-256,,,LAPTOP-REFURB-DELL-I5-10MA-14-16-2,LAPTOP,refurbished,activo,1,1,0,0
+"Laptop Refurb. Dell i5-11va 14"""" Tactil",,,LAPTOP-REFURB-DELL-I5-11VA-14-TACT,LAPTOP,refurbished,activo,2,1,0,0
+Laptop Refurb.dell i7 10ma,,,LAPTOP-REFURB-DELL-I7-10MA,LAPTOP,refurbished,activo,1,1,0,0
+"Laptop Refurb. Dell i5-7ma 14""""",,,LAPTOP-REFURB-DELL-I5-7MA-14,LAPTOP,refurbished,activo,1,1,0,0
+Laptop Refurb. Dell i5-8va. Grado A,,,LAPTOP-REFURB-DELL-I5-8VA-GRADO-A,LAPTOP,refurbished,activo,1,1,0,0
+Laptop Refurb. Dell i7-10ma. 10610u 16gb,,,LAPTOP-REFURB-DELL-I7-10MA-10610U-,LAPTOP,refurbished,activo,1,1,0,0
+Laptop Refurb.,,,LAPTOP-REFURB,LAPTOP,refurbished,activo,0,1,0,0
+Laptop Refurb. Dell i7-8va / 8 - 256 Grado A,,,LAPTOP-REFURB-DELL-I7-8VA-8-256-GR,LAPTOP,refurbished,activo,2,1,0,0
+Laptop Refurb. Dell i7-8va. 8-256,,,LAPTOP-REFURB-DELL-I7-8VA-8-256,LAPTOP,refurbished,activo,1,1,0,0
+Laptop Refurb. ACER Nitro i7 13620H 16/512 4060,,,LAPTOP-REFURB-ACER-NITRO-I7-13620H,LAPTOP,refurbished,activo,1,1,0,0
+Laptop Refurb. HP i3-10ma.,,,LAPTOP-REFURB-HP-I3-10MA,LAPTOP,refurbished,activo,0,1,0,0
+Laptop Refurb. HP i5-6ta,,,LAPTOP-REFURB-HP-I5-6TA,LAPTOP,refurbished,activo,1,1,0,0
+Laptop Refurb. Lenovo Ryzen 3 3200,,,LAPTOP-REFURB-LENOVO-RYZEN-3-3200,LAPTOP,refurbished,activo,0,1,0,0
+Laptop Refurb. Lenovo Thinkpack i7-6ta,,,LAPTOP-REFURB-LENOVO-THINKPACK-I7-,LAPTOP,refurbished,activo,1,1,0,0
+Laptop Refurb. Lenovo Thinkpack i5-8va,,,LAPTOP-REFURB-LENOVO-THINKPACK-I5-,LAPTOP,refurbished,activo,0,1,0,0
++ placa v8 + brazo,,,PLACA-V8-BRAZO,ACCESORIOS,nuevo,activo,0,1,0,0
+Balita doble. Tipo C,,,BALITA-DOBLE-TIPO-C,ACCESORIOS,nuevo,activo,0,1,0,0
+Balita Lavalier. Iphone,,,BALITA-LAVALIER-IPHONE,ACCESORIOS,nuevo,activo,0,1,0,0
+Balita Lavalier. Tipo C,,,BALITA-LAVALIER-TIPO-C,ACCESORIOS,nuevo,activo,0,1,0,0
+Boya,,,BOYA,ACCESORIOS,nuevo,activo,2,1,0,0
+JBL pbm100,,,JBL-PBM100,ACCESORIOS,nuevo,activo,2,1,0,0
+Razer Seiren Mini,,,RAZER-SEIREN-MINI,ACCESORIOS,nuevo,activo,2,1,0,0
+Redragon Quasar 2,,,REDRAGON-QUASAR-2,ACCESORIOS,nuevo,activo,3,1,0,0
+shure PGA58,,,SHURE-PGA58,ACCESORIOS,nuevo,activo,2,1,0,0
+shure SM58,,,SHURE-SM58,ACCESORIOS,nuevo,activo,1,1,0,0
+"T-wolf RGB , caja blanca",,,T-WOLF-RGB-CAJA-BLANCA,ACCESORIOS,nuevo,activo,0,1,0,0
+"V3 Pro, caja blanca",,,V3-PRO-CAJA-BLANCA,ACCESORIOS,nuevo,activo,5,1,0,0
+V5 Caja verde,,,V5-CAJA-VERDE,ACCESORIOS,nuevo,activo,2,1,0,0
+Mini Pc Ryzen 5,,,MINI-PC-RYZEN-5,MINI,nuevo,activo,0,1,0,0
+"19.5"""" - 60hz - AROA",,,19-5-60HZ-AROA,MONITOR,nuevo,activo,0,1,0,0
+"20"""" - Auce - 60hz -",,,20-AUCE-60HZ,MONITOR,nuevo,activo,3,1,0,0
+"21.5"""" - Astron - 100hz -",,,21-5-ASTRON-100HZ,MONITOR,nuevo,activo,2,1,0,0
+"21.5"""" - MSI - 100 Hz - (MP225)",,,21-5-MSI-100-HZ-MP225,MONITOR,nuevo,activo,1,1,0,0
+"23.5"""" - Gamemax -120 Hz -",,,23-5-GAMEMAX-120-HZ,MONITOR,nuevo,activo,0,1,0,0
+"23.8"""" - Astron - 165hz -",,,23-8-ASTRON-165HZ,MONITOR,nuevo,activo,0,1,0,0
+"23.8"""" - Gamemax -120 hz",,,23-8-GAMEMAX-120-HZ,MONITOR,nuevo,activo,1,1,0,0
+"24"""" - jemip Zeta One - 120hz -",,,24-JEMIP-ZETA-ONE-120HZ,MONITOR,nuevo,activo,0,1,0,0
+"24"""" - Master - 165Hz -",,,24-MASTER-165HZ,MONITOR,nuevo,activo,1,1,0,0
+"24"""" - MSI PRO MP243L",,,24-MSI-PRO-MP243L,MONITOR,nuevo,activo,1,1,0,0
+"25"""" - MSI PRO MP251",,,25-MSI-PRO-MP251,MONITOR,nuevo,activo,2,1,0,0
+"24"""" - Samsung curvo",,,24-SAMSUNG-CURVO,MONITOR,nuevo,activo,1,1,0,0
+"27"""" - Astron - 165hz -",,,27-ASTRON-165HZ,MONITOR,nuevo,activo,0,1,0,0
+"27"""" - Jemip - 2K -",,,27-JEMIP-2K,MONITOR,nuevo,activo,0,1,0,0
+"27"""" - Jemip caja roja - 100 Hz -",,,27-JEMIP-CAJA-ROJA-100-HZ,MONITOR,nuevo,activo,0,1,0,0
+"27"""" - Master MD 27 165hz",,,27-MASTER-MD-27-165HZ,MONITOR,nuevo,activo,1,1,0,0
+"27"""" - MSI - 2K (G27CQF)",,,27-MSI-2K-G27CQF,MONITOR,nuevo,activo,1,1,0,0
+"27"""" - MSI PRO MP273L",,,27-MSI-PRO-MP273L,MONITOR,nuevo,activo,1,1,0,0
+"27"""" - MSI Curvo - 280 Hz -",,,27-MSI-CURVO-280-HZ,MONITOR,nuevo,activo,0,1,0,0
+"27"""" - MSI MAC - 2k -",,,27-MSI-MAC-2K,MONITOR,nuevo,activo,0,1,0,0
+"27"""" - Samsung ODISSEY",,,27-SAMSUNG-ODISSEY,MONITOR,nuevo,activo,1,1,0,0
+"32"""" - LG",,,32-LG,MONITOR,nuevo,activo,2,1,0,0
+"32"""" - Master",,,32-MASTER,MONITOR,nuevo,activo,2,1,0,0
+AST,,,AST-2,MOUSE,nuevo,activo,0,1,0,0
+Corsair Harpoon RGB,,,CORSAIR-HARPOON-RGB,MOUSE,nuevo,activo,0,1,0,0
+Corsair M65 RGB,,,CORSAIR-M65-RGB,MOUSE,nuevo,activo,0,1,0,0
+EVGA X15,,,EVGA-X15,MOUSE,nuevo,activo,0,1,0,0
+EVGA X17,,,EVGA-X17,MOUSE,nuevo,activo,3,1,0,0
+Fantech Crypto,,,FANTECH-CRYPTO,COOLING,nuevo,activo,0,1,0,0
+Fantech Kanata Alambrico,,,FANTECH-KANATA-ALAMBRICO,COOLING,nuevo,activo,0,1,0,0
+Gamemax Combo con mousepad y mouse,,,GAMEMAX-COMBO-CON-MOUSEPAD-Y-MOUSE,ACCESORIOS,nuevo,activo,0,1,0,0
+Genius DX120,,,GENIUS-DX120,MOUSE,nuevo,activo,4,1,0,0
+Genius DX125,,,GENIUS-DX125,MOUSE,nuevo,activo,0,1,0,0
+Genius Scorpion M700,,,GENIUS-SCORPION-M700,MOUSE,nuevo,activo,2,1,0,0
+inalambrico Biucen,,,INALAMBRICO-BIUCEN,MOUSE,nuevo,activo,0,1,0,0
+inalambrico bluetooth T-Wolf X9 Rosado,,,INALAMBRICO-BLUETOOTH-T-WOLF-X9-RO,MOUSE,nuevo,activo,0,1,0,0
+Inalámbrico Fantech Kanata,,,INALAMBRICO-FANTECH-KANATA,COOLING,nuevo,activo,5,1,0,0
+Inalámbrico Genius M300,,,INALAMBRICO-GENIUS-M300,MOUSE,nuevo,activo,0,1,0,0
+Inalámbrico T-wolf Q2,,,INALAMBRICO-T-WOLF-Q2,MOUSE,nuevo,activo,4,1,0,0
+Inalámbrico T-Wolf Q4,,,INALAMBRICO-T-WOLF-Q4,MOUSE,nuevo,activo,0,1,0,0
+Inalámbrico UP,,,INALAMBRICO-UP,MOUSE,nuevo,activo,6,1,0,0
+Logitech G305,,,LOGITECH-G305,MOUSE,nuevo,activo,3,1,0,0
+Logitech G304,,,LOGITECH-G304,MOUSE,nuevo,activo,2,1,0,0
+Logitech G502,,,LOGITECH-G502,MOUSE,nuevo,activo,2,1,0,0
+MSI Clutch GM08,,,MSI-CLUTCH-GM08,MOUSE,nuevo,activo,4,1,0,0
+MSI Forge GM300,,,MSI-FORGE-GM300,MOUSE,nuevo,activo,4,1,0,0
+Razer Deathadder chroma,,,RAZER-DEATHADDER-CHROMA,MOUSE,nuevo,activo,4,1,0,0
+Razer ORICHI V2,,,RAZER-ORICHI-V2,MOUSE,nuevo,activo,1,1,0,0
+Razer Basilisk V3,,,RAZER-BASILISK-V3,MOUSE,nuevo,activo,0,1,0,0
+Razer Basilisk V3x Hyperspeed,,,RAZER-BASILISK-V3X-HYPERSPEED,MOUSE,nuevo,activo,3,1,0,0
+Razer Deathadder Essential,,,RAZER-DEATHADDER-ESSENTIAL,MOUSE,nuevo,activo,3,1,0,0
+Razer Viper Hyperspeed,,,RAZER-VIPER-HYPERSPEED,MOUSE,nuevo,activo,1,1,0,0
+Razer Viper V3,,,RAZER-VIPER-V3,MOUSE,nuevo,activo,0,1,0,0
+Redragon Centrophorus7.200 DPI,,,REDRAGON-CENTROPHORUS7-200-DPI,MOUSE,nuevo,activo,0,1,0,0
+Redragon Cobra 10.000 DPI,,,REDRAGON-COBRA-10-000-DPI,MOUSE,nuevo,activo,0,1,0,0
+Redragon Ergonomico BM 4033,,,REDRAGON-ERGONOMICO-BM-4033,MOUSE,nuevo,activo,0,1,0,0
+Redragon Gainer 4.000 DPI,,,REDRAGON-GAINER-4-000-DPI,MOUSE,nuevo,activo,4,1,0,0
+Redragon Griffin 7.200 DPI,,,REDRAGON-GRIFFIN-7-200-DPI,MOUSE,nuevo,activo,2,1,0,0
+Redragon K1NG 1K 12.400 DPI,,,REDRAGON-K1NG-1K-12-400-DPI,MOUSE,nuevo,activo,4,1,0,0
+Redragon Predator Pro 8.000 DPI,,,REDRAGON-PREDATOR-PRO-8-000-DPI,MOUSE,nuevo,activo,2,1,0,0
+Redragon Reaping,,,REDRAGON-REAPING,MOUSE,nuevo,activo,3,1,0,0
+Redragon Storm 16.000 DPI,,,REDRAGON-STORM-16-000-DPI,MOUSE,nuevo,activo,0,1,0,0
+Redragon Storm Pro 12.400 DPI,,,REDRAGON-STORM-PRO-12-400-DPI,MOUSE,nuevo,activo,2,1,0,0
+Onikuma CW902,,,ONIKUMA-CW902,MOUSE,nuevo,activo,4,1,0,0
+Fashion,,,FASHION,MOUSE,nuevo,activo,12,1,0,0
+Inalámbrico recargable,,,INALAMBRICO-RECARGABLE,MOUSE,nuevo,activo,26,1,0,0
+T-Wolf V1,,,T-WOLF-V1,MOUSE,nuevo,activo,0,1,0,0
+T-Wolf V13,,,T-WOLF-V13,MOUSE,nuevo,activo,0,1,0,0
+T-Wolf V15,,,T-WOLF-V15,MOUSE,nuevo,activo,10,1,0,0
+T-Wolf V2,,,T-WOLF-V2,MOUSE,nuevo,activo,4,1,0,0
+y Mousepad Gamemax combo,,,Y-MOUSEPAD-GAMEMAX-COMBO,ACCESORIOS,nuevo,activo,5,1,0,0
+Cuadrado Havit,,,CUADRADO-HAVIT,MOUSEPAD,nuevo,activo,0,1,0,0
+Cuadrado Redragon,,,CUADRADO-REDRAGON,MOUSEPAD,nuevo,activo,0,1,0,0
+Cuadrado UP MPO3-of,,,CUADRADO-UP-MPO3-OF,MOUSEPAD,nuevo,activo,0,1,0,0
+sencillo turquesa,,,SENCILLO-TURQUESA,MOUSEPAD,nuevo,activo,0,1,0,0
+XL RGB,,,XL-RGB,MOUSEPAD,nuevo,activo,3,1,0,0
+SUZAKU Redragon,,,SUZAKU-REDRAGON,MOUSEPAD,nuevo,activo,2,1,0,0
+KUNLUN Redragon,,,KUNLUN-REDRAGON,MOUSEPAD,nuevo,activo,2,1,0,0
+XXL Redragon,,,XXL-REDRAGON,MOUSEPAD,nuevo,activo,0,1,0,0
+XL UP,,,XL-UP,MOUSEPAD,nuevo,activo,2,1,0,0
+Termica Corsair,,,TERMICA-CORSAIR,COOLING,nuevo,activo,5,1,0,0
+Termica economica mediana,,,TERMICA-ECONOMICA-MEDIANA,COOLING,nuevo,activo,3,1,0,0
+Termica economica pequeña,,,TERMICA-ECONOMICA-PEQUE-A,COOLING,nuevo,activo,10,1,0,0
+Termica Gamemax,,,TERMICA-GAMEMAX,COOLING,nuevo,activo,4,1,0,0
+Termica Thermal Grizzly,,,TERMICA-THERMAL-GRIZZLY,COOLING,nuevo,activo,4,1,0,0
+Termica MX4 Caja Grande (1 TIENDA),,,TERMICA-MX4-CAJA-GRANDE-1-TIENDA,COOLING,nuevo,activo,1,1,0,0
+Termica MX6,,,TERMICA-MX6,COOLING,nuevo,activo,4,1,0,0
+Termica MX7,,,TERMICA-MX7,COOLING,nuevo,activo,0,1,0,0
+Arteck AK-H110M,,,ARTECK-AK-H110M,MOBO,nuevo,activo,1,1,0,0
+Arteck AK-H81M EL VS,,,ARTECK-AK-H81M-EL-VS,MOBO,nuevo,activo,0,1,0,0
+Asrock A520M-HDV,,,ASROCK-A520M-HDV,MOBO,nuevo,activo,1,1,0,0
+Asrock B450M,,,ASROCK-B450M,MOBO,nuevo,activo,0,1,0,0
+Asrock B850M - X. WIFI AM5,,,ASROCK-B850M-X-WIFI-AM5,MOBO,nuevo,activo,2,1,0,0
+Asrock H510M - SE (Intel),,,ASROCK-H510M-SE-INTEL,MOBO,nuevo,activo,0,1,0,0
+Asrock H610M - HDV m.2,,,ASROCK-H610M-HDV-M-2,MOBO,nuevo,activo,0,1,0,0
+Asrock H610M HVSI m.2 Pro,,,ASROCK-H610M-HVSI-M-2-PRO,MOBO,nuevo,activo,5,1,0,0
+Asrock H810M - X,,,ASROCK-H810M-X,MOBO,nuevo,activo,1,1,0,0
+Asrock Phanton Z590 Gaming S4,,,ASROCK-PHANTON-Z590-GAMING-S4,MOBO,nuevo,activo,0,1,0,0
+Asus B760M-AYW - wifi D4,,,ASUS-B760M-AYW-WIFI-D4,MOBO,nuevo,activo,0,1,0,0
+Asus Prime A520M-K (Ryzen),,,ASUS-PRIME-A520M-K-RYZEN,MOBO,nuevo,activo,2,1,0,0
+Asus Prime B550- Plus HES,,,ASUS-PRIME-B550-PLUS-HES,MOBO,nuevo,activo,0,1,0,0
+Asus Prime B550M - A - WIFI II***,,,ASUS-PRIME-B550M-A-WIFI-II,MOBO,nuevo,activo,0,1,0,0
+Asus Prime B650 - DDR5 (Ryzen) Blanca,,,ASUS-PRIME-B650-DDR5-RYZEN-BLANCA,MOBO,nuevo,activo,0,1,0,0
+Asus Prime H670- Plus D4,,,ASUS-PRIME-H670-PLUS-D4,MOBO,nuevo,activo,0,1,0,0
+Asus Prime Z270 - 6ta. (Sin Caja),,,ASUS-PRIME-Z270-6TA-SIN-CAJA,MOBO,nuevo,activo,2,1,0,0
+Asus Prime Z590 - P (Intel),,,ASUS-PRIME-Z590-P-INTEL,MOBO,nuevo,activo,0,1,0,0
+Asus Prime Z290 6TA (sin caja),,,ASUS-PRIME-Z290-6TA-SIN-CAJA,MOBO,nuevo,activo,1,1,0,0
+AsusTuf A520M (Ryzen) Sin Caja,,,ASUSTUF-A520M-RYZEN-SIN-CAJA,MOBO,nuevo,activo,2,1,0,0
+Biostar A620A DDR5,,,BIOSTAR-A620A-DDR5,MOBO,nuevo,activo,1,1,0,0
+Biostar A620M DDR5,,,BIOSTAR-A620M-DDR5,MOBO,nuevo,activo,2,1,0,0
+Biostar H610MHP,,,BIOSTAR-H610MHP,MOBO,nuevo,activo,1,1,0,0
+combo G31m7,,,COMBO-G31M7,MOBO,nuevo,activo,0,1,0,0
+DDR2,,,DDR2,MOBO,nuevo,activo,1,1,0,0
+DDR3 H61 sergio,,,DDR3-H61-SERGIO,MOBO,nuevo,activo,1,1,0,0
+Esonic H110 Intel,,,ESONIC-H110-INTEL,MOBO,nuevo,activo,0,1,0,0
+Esonic H61DA,,,ESONIC-H61DA,MOBO,nuevo,activo,3,1,0,0
+Esonic H81DA,,,ESONIC-H81DA,MOBO,nuevo,activo,5,1,0,0
+Gigabyte A520M-K-V2 / EXIBICION MALA,,,GIGABYTE-A520M-K-V2-EXIBICION-MALA,MOBO,nuevo,activo,1,1,0,0
+Gigabyte Aorus B550 (Ryzen),,,GIGABYTE-AORUS-B550-RYZEN,MOBO,nuevo,activo,0,1,0,0
+Gigabyte Aorus B650-E,,,GIGABYTE-AORUS-B650-E,MOBO,nuevo,activo,1,1,0,0
+Gigabyte Aorus B850-Elite - wifi 7,,,GIGABYTE-AORUS-B850-ELITE-WIFI-7,MOBO,nuevo,activo,1,1,0,0
+Gigabyte B550M Gaming X Wifi 6 (Ryzen),,,GIGABYTE-B550M-GAMING-X-WIFI-6-RYZ,MOBO,nuevo,activo,2,1,0,0
+Gigabyte B550M-K (Ryzen),,,GIGABYTE-B550M-K-RYZEN,MOBO,nuevo,activo,0,1,0,0
+Gigabyte B650M Gaming Plus wifi (Ryzen),,,GIGABYTE-B650M-GAMING-PLUS-WIFI-RY,MOBO,nuevo,activo,0,1,0,0
+Gigabyte B760M - DS3HP (Intel) DDR4,,,GIGABYTE-B760M-DS3HP-INTEL-DDR4,MOBO,nuevo,activo,0,1,0,0
+Gigabyte Eagle B860,,,GIGABYTE-EAGLE-B860,MOBO,nuevo,activo,0,1,0,0
+Gigabyte H510M K - V2 (Intel),,,GIGABYTE-H510M-K-V2-INTEL,MOBO,nuevo,activo,0,1,0,0
+Gigabyte X870 Am5 Gaming wifi,,,GIGABYTE-X870-AM5-GAMING-WIFI,MOBO,nuevo,activo,0,1,0,0
+Gigabyte Z790 - UD AC (Intel),,,GIGABYTE-Z790-UD-AC-INTEL,MOBO,nuevo,activo,0,1,0,0
+Gigabyte Z790 DDR4 Wifi,,,GIGABYTE-Z790-DDR4-WIFI,MOBO,nuevo,activo,0,1,0,0
+MSI PRO B7 60M-P DDR4 INTEL,,,MSI-PRO-B7-60M-P-DDR4-INTEL,MOBO,nuevo,activo,2,1,0,0
+MSI A620M (Ryzen),,,MSI-A620M-RYZEN,MOBO,nuevo,activo,0,1,0,0
+MSI B550 Mac Gaming Plus,,,MSI-B550-MAC-GAMING-PLUS,MOBO,nuevo,activo,0,1,0,0
+MSI Z790 Gaming Plus wifi,,,MSI-Z790-GAMING-PLUS-WIFI,MOBO,nuevo,activo,0,1,0,0
+Zeon,,,ZEON,MOBO,nuevo,activo,1,1,0,0
+Intel Celeron G3930,,,INTEL-CELERON-G3930,CPU,nuevo,activo,1,1,0,0
+Intel Core i5 - 11400F,,,INTEL-CORE-I5-11400F,CPU,nuevo,activo,0,1,0,0
+Intel Core 2 Quad,,,INTEL-CORE-2-QUAD,CPU,nuevo,activo,1,1,0,0
+Intel Core i3 - 12100F,,,INTEL-CORE-I3-12100F,CPU,nuevo,activo,0,1,0,0
+Intel Core i3 - 13100F,,,INTEL-CORE-I3-13100F,CPU,nuevo,activo,1,1,0,0
+Intel Core i3 - 14100F,,,INTEL-CORE-I3-14100F,CPU,nuevo,activo,2,1,0,0
+Intel Core i3 - 3220,,,INTEL-CORE-I3-3220,CPU,nuevo,activo,0,1,0,0
+Intel Core i3 - 3250,,,INTEL-CORE-I3-3250,CPU,nuevo,activo,1,1,0,0
+Intel Core i5 - 10400,,,INTEL-CORE-I5-10400,CPU,nuevo,activo,0,1,0,0
+Intel Core i5 - 10400F,,,INTEL-CORE-I5-10400F,CPU,nuevo,activo,1,1,0,0
+Intel Core i5 - 11400F,,,INTEL-CORE-I5-11400F-2,CPU,nuevo,activo,1,1,0,0
+Intel Core i5 - 12400,,,INTEL-CORE-I5-12400,CPU,nuevo,activo,2,1,0,0
+Intel Core i5 - 12400F,,,INTEL-CORE-I5-12400F,CPU,nuevo,activo,2,1,0,0
+Intel Core i5 - 12600KF,,,INTEL-CORE-I5-12600KF,CPU,nuevo,activo,1,1,0,0
+Intel Core i5 - 14400,,,INTEL-CORE-I5-14400,CPU,nuevo,activo,1,1,0,0
+Intel Core i5 - 14400F,,,INTEL-CORE-I5-14400F,CPU,nuevo,activo,0,1,0,0
+intel core i5 - 14600K,,,INTEL-CORE-I5-14600K,CPU,nuevo,activo,1,1,0,0
+intel core i5 - 15va - ultra,,,INTEL-CORE-I5-15VA-ULTRA,CPU,nuevo,activo,1,1,0,0
+Intel Core i5 - 2500K,,,INTEL-CORE-I5-2500K,CPU,nuevo,activo,0,1,0,0
+Intel Core i5 - 3470,,,INTEL-CORE-I5-3470,CPU,nuevo,activo,2,1,0,0
+Intel Core i5 - 4590,,,INTEL-CORE-I5-4590,CPU,nuevo,activo,3,1,0,0
+Intel Core i5 - 6500,,,INTEL-CORE-I5-6500,CPU,nuevo,activo,3,1,0,0
+Intel Core i5 - 7500,,,INTEL-CORE-I5-7500,CPU,nuevo,activo,0,1,0,0
+Intel Core i5 - 8400,,,INTEL-CORE-I5-8400,CPU,nuevo,activo,0,1,0,0
+Intel Core i5 - 8500,,,INTEL-CORE-I5-8500,CPU,nuevo,activo,5,1,0,0
+Intel Core i5 - 9400,,,INTEL-CORE-I5-9400,CPU,nuevo,activo,0,1,0,0
+Intel Core i5 - 9500,,,INTEL-CORE-I5-9500,CPU,nuevo,activo,1,1,0,0
+Intel Core i7 - 12700KF,,,INTEL-CORE-I7-12700KF,CPU,nuevo,activo,0,1,0,0
+intel core i7 - 15va - ultra,,,INTEL-CORE-I7-15VA-ULTRA,CPU,nuevo,activo,0,1,0,0
+Intel Core i7 - 4TA 4790,,,INTEL-CORE-I7-4TA-4790,CPU,nuevo,activo,0,1,0,0
+Intel Core i7 - 2600K,,,INTEL-CORE-I7-2600K,CPU,nuevo,activo,0,1,0,0
+Intel Core i7 - 3770,,,INTEL-CORE-I7-3770,CPU,nuevo,activo,2,1,0,0
+Intel Core i7 - 7700K revisar uno,,,INTEL-CORE-I7-7700K-REVISAR-UNO,CPU,nuevo,activo,2,1,0,0
+Intel Core i9 - 12900KF,,,INTEL-CORE-I9-12900KF,CPU,nuevo,activo,0,1,0,0
+Intel Pentium Dual Core,,,INTEL-PENTIUM-DUAL-CORE,CPU,nuevo,activo,0,1,0,0
+Intel Pentium G4400 - 6ta,,,INTEL-PENTIUM-G4400-6TA,CPU,nuevo,activo,3,1,0,0
+Ryzen 3 - 3200 G,,,RYZEN-3-3200-G,CPU,nuevo,activo,1,1,0,0
+Ryzen 5 - 4500,,,RYZEN-5-4500,CPU,nuevo,activo,3,1,0,0
+Ryzen 5 - 5500,,,RYZEN-5-5500,CPU,nuevo,activo,10,1,0,0
+Ryzen 5 - 5600,,,RYZEN-5-5600,CPU,nuevo,activo,1,1,0,0
+Ryzen 5 - 5600G,,,RYZEN-5-5600G,CPU,nuevo,activo,0,1,0,0
+Ryzen 5 - 7600X,,,RYZEN-5-7600X,CPU,nuevo,activo,1,1,0,0
+Ryzen 5 - 8500G,,,RYZEN-5-8500G,CPU,nuevo,activo,2,1,0,0
+Ryzen 5 - 8600G,,,RYZEN-5-8600G,CPU,nuevo,activo,1,1,0,0
+Ryzen 5 - 9600X,,,RYZEN-5-9600X,CPU,nuevo,activo,1,1,0,0
+Ryzen 5- 5600GT,,,RYZEN-5-5600GT,CPU,nuevo,activo,1,1,0,0
+Ryzen 7 - 5700,,,RYZEN-7-5700,CPU,nuevo,activo,1,1,0,0
+Ryzen 7 - 5700G,,,RYZEN-7-5700G,CPU,nuevo,activo,3,1,0,0
+Ryzen 7 - 5700X,,,RYZEN-7-5700X,CPU,nuevo,activo,0,1,0,0
+Ryzen 7 - 5800 XT,,,RYZEN-7-5800-XT,CPU,nuevo,activo,0,1,0,0
+Ryzen 7 - 8700G,,,RYZEN-7-8700G,CPU,nuevo,activo,1,1,0,0
+Ryzen 7 - 9700X,,,RYZEN-7-9700X,CPU,nuevo,activo,0,1,0,0
+Ryzen 7 5700 X3D,,,RYZEN-7-5700-X3D,CPU,nuevo,activo,0,1,0,0
+Ryzen 7 7700X,,,RYZEN-7-7700X,CPU,nuevo,activo,1,1,0,0
+Ryzen 7 9900x,,,RYZEN-7-9900X,CPU,nuevo,activo,1,1,0,0
+AMD Athlon,,,AMD-ATHLON,CPU,nuevo,activo,2,1,0,0
+Ryzen 7 9800 X3D,,,RYZEN-7-9800-X3D,CPU,nuevo,activo,1,1,0,0
+Projector Led - caja blanca con amarillo,,,PROJECTOR-LED-CAJA-BLANCA-CON-AMAR,PROJECTOR,nuevo,activo,0,1,0,0
+de corriente 3 toma,,,DE-CORRIENTE-3-TOMA,ACCESORIOS,nuevo,activo,20,1,0,0
+de corriente grande 1 toma,,,DE-CORRIENTE-GRANDE-1-TOMA,ACCESORIOS,nuevo,activo,28,1,0,0
+de corriente pequeño laptop,,,DE-CORRIENTE-PEQUE-O-LAPTOP,ACCESORIOS,nuevo,activo,0,1,0,0
+de corriente UP,,,DE-CORRIENTE-UP,ACCESORIOS,nuevo,activo,0,1,0,0
+DDR2 Laptop 2GB - Royemai - 5400,,,DDR2-LAPTOP-2GB-ROYEMAI-5400,RAM,nuevo,activo,2,1,0,0
+DDR2 PC 2GB - Kingston - 6400,,,DDR2-PC-2GB-KINGSTON-6400,RAM,nuevo,activo,0,1,0,0
+"DDR3 Laptop - 2GB - Surtidas - 10600, sin caja",,,DDR3-LAPTOP-2GB-SURTIDAS-10600-SIN,RAM,nuevo,activo,0,1,0,0
+DDR3 PC 16GB - Patriot Viper - kit 8*2 - 1866,,,DDR3-PC-16GB-PATRIOT-VIPER-KIT-8-2,RAM,nuevo,activo,1,1,0,0
+DDR3 PC 2GB - Semicon - 12800,,,DDR3-PC-2GB-SEMICON-12800,RAM,nuevo,activo,0,1,0,0
+DDR3 PC 4GB - Kingston - 10600,,,DDR3-PC-4GB-KINGSTON-10600,RAM,nuevo,activo,2,1,0,0
+"DDR3 PC 4GB - Patriot - 10600, sin caja",,,DDR3-PC-4GB-PATRIOT-10600-SIN-CAJA,RAM,nuevo,activo,0,1,0,0
+"DDR3 PC 4GB - Samsung - 12800, sin caja",,,DDR3-PC-4GB-SAMSUNG-12800-SIN-CAJA,RAM,nuevo,activo,0,1,0,0
+"DDR3 PC 4GB - surtidas - 12800, sin caja",,,DDR3-PC-4GB-SURTIDAS-12800-SIN-CAJ,RAM,nuevo,activo,0,1,0,0
+DDR3 PC 8GB - Crucial - 1600,,,DDR3-PC-8GB-CRUCIAL-1600,RAM,nuevo,activo,12,1,0,0
+DDR3 PC 8GB - Kingston - 12800,,,DDR3-PC-8GB-KINGSTON-12800,RAM,nuevo,activo,1,1,0,0
+DDR4 Laptop - 16GB - Corsair Vengeance Kit 2*8 3200,,,DDR4-LAPTOP-16GB-CORSAIR-VENGEANCE,RAM,nuevo,activo,7,1,0,0
+DDR4 Laptop - 16GB - Patriot - 2400,,,DDR4-LAPTOP-16GB-PATRIOT-2400,RAM,nuevo,activo,2,1,0,0
+DDR4 Laptop - 16GB - Puskill - 3200,,,DDR4-LAPTOP-16GB-PUSKILL-3200,RAM,nuevo,activo,2,1,0,0
+DDR4 Laptop - 16GB - Surtidas (3200-2666),,,DDR4-LAPTOP-16GB-SURTIDAS-3200-266,RAM,nuevo,activo,0,1,0,0
+DDR4 Laptop - 4GB Surtidas - 3200,,,DDR4-LAPTOP-4GB-SURTIDAS-3200,RAM,nuevo,activo,0,1,0,0
+DDR4 Laptop - 8GB - Crucial - 2400,,,DDR4-LAPTOP-8GB-CRUCIAL-2400,RAM,nuevo,activo,2,1,0,0
+DDR4 Laptop - 8GB - Crucial - 3200,,,DDR4-LAPTOP-8GB-CRUCIAL-3200,RAM,nuevo,activo,1,1,0,0
+DDR4 Laptop - 8GB - Puskill - 2666,,,DDR4-LAPTOP-8GB-PUSKILL-2666,RAM,nuevo,activo,4,1,0,0
+DDR4 PC - 16GB - Corsair Vengeance Lpx - kit 2*8 3200,,,DDR4-PC-16GB-CORSAIR-VENGEANCE-LPX,RAM,nuevo,activo,2,1,0,0
+DDR4 PC - 16GB - Corsair Vengeance RGB Pro - kit 2*16 3200,,,DDR4-PC-16GB-CORSAIR-VENGEANCE-RGB,RAM,nuevo,activo,2,1,0,0
+DDR4 PC - 16GB - HIKSEMI HIKER,,,DDR4-PC-16GB-HIKSEMI-HIKER,RAM,nuevo,activo,2,1,0,0
+DDR4 PC - 16GB - Geil Orion RGB - 3200,,,DDR4-PC-16GB-GEIL-ORION-RGB-3200,RAM,nuevo,activo,2,1,0,0
+DDR4 PC - 16GB - Gskill Ripjaws V Kit 2*8 - 3200,,,DDR4-PC-16GB-GSKILL-RIPJAWS-V-KIT-,RAM,nuevo,activo,1,1,0,0
+DDR4 PC - 16GB - Gskill Sniper X Kit 2*8 - 3200,,,DDR4-PC-16GB-GSKILL-SNIPER-X-KIT-2,RAM,nuevo,activo,0,1,0,0
+DDR4 PC - 16GB - PNY XLR8 - Kit 2*8 - 3600,,,DDR4-PC-16GB-PNY-XLR8-KIT-2-8-3600,RAM,nuevo,activo,0,1,0,0
+DDR4 PC - 16GB - Teamgroup Tforce Delta kit 8*2 3600,,,DDR4-PC-16GB-TEAMGROUP-TFORCE-DELT,RAM,nuevo,activo,1,1,0,0
+DDR4 PC - 16GB - Teamgroup Tforce Vulcan Z kit 2*8 3200,,,DDR4-PC-16GB-TEAMGROUP-TFORCE-VULC,RAM,nuevo,activo,0,1,0,0
+DDR4 PC - 32GB - Corsair Vengeance RGB - kit 2*16 3200,,,DDR4-PC-32GB-CORSAIR-VENGEANCE-RGB,RAM,nuevo,activo,0,1,0,0
+DDR4 PC - 4GB - Surtidas en caja negra - 12800,,,DDR4-PC-4GB-SURTIDAS-EN-CAJA-NEGRA,RAM,nuevo,activo,0,1,0,0
+DDR4 PC - 4GB - Surtidas en caja negra - 2400,,,DDR4-PC-4GB-SURTIDAS-EN-CAJA-NEGRA-2,RAM,nuevo,activo,0,1,0,0
+DDR4 PC - 64GB - Oloy OWL RGB - 3200,,,DDR4-PC-64GB-OLOY-OWL-RGB-3200,RAM,nuevo,activo,0,1,0,0
+DDR4 PC - 64GB - Patriot - 3200,,,DDR4-PC-64GB-PATRIOT-3200,RAM,nuevo,activo,0,1,0,0
+DDR4 PC - 64GB - Patriot Viper Gaming kit 2*32 3200,,,DDR4-PC-64GB-PATRIOT-VIPER-GAMING-,RAM,nuevo,activo,1,1,0,0
+DDR4 PC - 8GB - Adata- 3200,,,DDR4-PC-8GB-ADATA-3200,RAM,nuevo,activo,2,1,0,0
+DDR4 PC - 8GB - Geil Evo Potenza - 3200,,,DDR4-PC-8GB-GEIL-EVO-POTENZA-3200,RAM,nuevo,activo,0,1,0,0
+DDR4 PC - 8GB - Geil Evo X II - 3200,,,DDR4-PC-8GB-GEIL-EVO-X-II-3200,RAM,nuevo,activo,0,1,0,0
+DDR4 PC - 8GB - Patriot Viper - 3200,,,DDR4-PC-8GB-PATRIOT-VIPER-3200,RAM,nuevo,activo,2,1,0,0
+DDR5 Laptop 16GB Patriot - 4800 -,,,DDR5-LAPTOP-16GB-PATRIOT-4800,RAM,nuevo,activo,1,1,0,0
+DDR5 Laptop 32GB - Crucial - 5600,,,DDR5-LAPTOP-32GB-CRUCIAL-5600,RAM,nuevo,activo,0,1,0,0
+DDR5 Laptop 8GB - Crucial - 4800,,,DDR5-LAPTOP-8GB-CRUCIAL-4800,RAM,nuevo,activo,2,1,0,0
+DDR5 Laptop 8GB - Surtida - 5600,,,DDR5-LAPTOP-8GB-SURTIDA-5600,RAM,nuevo,activo,0,1,0,0
+DDR5 PC 16GB - Patriot - 5600,,,DDR5-PC-16GB-PATRIOT-5600,RAM,nuevo,activo,2,1,0,0
+DDR5 PC 16GB - Teamgroup T-force Delta - kit 2*8 -6000,,,DDR5-PC-16GB-TEAMGROUP-T-FORCE-DEL,RAM,nuevo,activo,1,1,0,0
+DDR5 PC 32GB - Corsair Vengeance - Kit 2*16 - 6000,,,DDR5-PC-32GB-CORSAIR-VENGEANCE-KIT,RAM,nuevo,activo,1,1,0,0
+DDR5 PC 32GB - Crucial - 5600,,,DDR5-PC-32GB-CRUCIAL-5600,RAM,nuevo,activo,1,1,0,0
+DDR5 PC 32GB - Crucial - kit 2*16 - 4800,,,DDR5-PC-32GB-CRUCIAL-KIT-2-16-4800,RAM,nuevo,activo,1,1,0,0
+DDR5 PC 32GB - Patriot - Kit 2*16 - 4800,,,DDR5-PC-32GB-PATRIOT-KIT-2-16-4800,RAM,nuevo,activo,0,1,0,0
+DDR5 PC 32GB - Patriot Viper Elite 5 -Kit 2*16 - 5600,,,DDR5-PC-32GB-PATRIOT-VIPER-ELITE-5,RAM,nuevo,activo,1,1,0,0
+Liquida Corsair Icue H100,,,LIQUIDA-CORSAIR-ICUE-H100,COOLING,nuevo,activo,1,1,0,0
+Liquida Corsair Nautilus 360,,,LIQUIDA-CORSAIR-NAUTILUS-360,COOLING,nuevo,activo,0,1,0,0
+Liquida EVGA 2Fan Closed Loop,,,LIQUIDA-EVGA-2FAN-CLOSED-LOOP,COOLING,nuevo,activo,1,1,0,0
+Liquida Gamemax 1 Fan (1 blanca y 1 negra),,,LIQUIDA-GAMEMAX-1-FAN-1-BLANCA-Y-1,COOLING,nuevo,activo,0,1,0,0
+Liquida Gamemax 2 Fan Iceburg,,,LIQUIDA-GAMEMAX-2-FAN-ICEBURG,COOLING,nuevo,activo,0,1,0,0
+Liquida Master Tecnology Titan T-360,,,LIQUIDA-MASTER-TECNOLOGY-TITAN-T-3,COOLING,nuevo,activo,1,1,0,0
+Liquida Redragon Effects 2 Fan,,,LIQUIDA-REDRAGON-EFFECTS-2-FAN,COOLING,nuevo,activo,1,1,0,0
+AC 1200,,,AC-1200,ACCESORIOS,nuevo,activo,0,1,0,0
+Ax1500 Cudy,,,AX1500-CUDY,ACCESORIOS,nuevo,activo,8,1,0,0
+Ax1500 Mesh,,,AX1500-MESH,ACCESORIOS,nuevo,activo,0,1,0,0
+Ax3000 Cudy,,,AX3000-CUDY,ACCESORIOS,nuevo,activo,1,1,0,0
+Gamer Azul Jemip,,,GAMER-AZUL-JEMIP,SILLA GAMER,nuevo,activo,1,1,0,0
+Gamer Negra c/rojo Jemip,,,GAMER-NEGRA-C-ROJO-JEMIP,SILLA GAMER,nuevo,activo,1,1,0,0
+"Tablet Vortex 10""""",,,TABLET-VORTEX-10,TABLET,nuevo,activo,0,1,0,0
+"Tableta Grafica 7"""" Huin",,,TABLETA-GRAFICA-7-HUIN,TABLETA,nuevo,activo,0,1,0,0
+(combo completo) T-Wolf TF240 KIT,,,COMBO-COMPLETO-T-WOLF-TF240-KIT,TECLADO,nuevo,activo,2,1,0,0
+(combo) MSI mecanico GK300,,,COMBO-MSI-MECANICO-GK300,TECLADO,nuevo,activo,0,1,0,0
+(combo) Redragon mecanico,,,COMBO-REDRAGON-MECANICO,TECLADO,nuevo,activo,0,1,0,0
+(combo) T-wolf TF100 Inalámbrico,,,COMBO-T-WOLF-TF100-INAL-MBRICO,TECLADO,nuevo,activo,20,1,0,0
+(combo) T-wolf TF200 Luces,,,COMBO-T-WOLF-TF200-LUCES,TECLADO,nuevo,activo,0,1,0,0
+(combo) T-Wolf TF500 Sencillo,,,COMBO-T-WOLF-TF500-SENCILLO,TECLADO,nuevo,activo,0,1,0,0
+mecanico RAMPAGE gamemax,,,MECANICO-RAMPAGE-GAMEMAX,TECLADO,nuevo,activo,1,1,0,0
+Bluetooth pequeño,,,BLUETOOTH-PEQUE-O,TECLADO,nuevo,activo,0,1,0,0
+Logitech K230,,,LOGITECH-K230,TECLADO,nuevo,activo,2,1,0,0
+mecanico Fantech K515 Shiraki,,,MECANICO-FANTECH-K515-SHIRAKI,COOLING,nuevo,activo,2,1,0,0
+Numerico individual,,,NUMERICO-INDIVIDUAL,TECLADO,nuevo,activo,5,1,0,0
+Redragon Dragonborn (2B-2N),,,REDRAGON-DRAGONBORN-2B-2N,TECLADO,nuevo,activo,1,1,0,0
+Redragon Fizz Pro,,,REDRAGON-FIZZ-PRO,TECLADO,nuevo,activo,1,1,0,0
+Redragon Fizz RGB Transparente,,,REDRAGON-FIZZ-RGB-TRANSPARENTE,TECLADO,nuevo,activo,2,1,0,0
+Redragon UCAL PRO,,,REDRAGON-UCAL-PRO,TECLADO,nuevo,activo,4,1,0,0
+Redragon EISA MAX,,,REDRAGON-EISA-MAX,TECLADO,nuevo,activo,1,1,0,0
+Redragon Mitra,,,REDRAGON-MITRA,TECLADO,nuevo,activo,2,1,0,0
+Redragon Star Blade PRO,,,REDRAGON-STAR-BLADE-PRO,TECLADO,nuevo,activo,2,1,0,0
+Redragon B5-8343A,,,REDRAGON-B5-8343A,TECLADO,nuevo,activo,1,1,0,0
+sencillo AST,,,SENCILLO-AST,TECLADO,nuevo,activo,4,1,0,0
+sencillo Delux KA190,,,SENCILLO-DELUX-KA190,TECLADO,nuevo,activo,6,1,0,0
+Onikuma G55,,,ONIKUMA-G55,TECLADO,nuevo,activo,2,1,0,0
+T-wolf (una mano),,,T-WOLF-UNA-MANO,TECLADO,nuevo,activo,0,1,0,0
+T-wolf T15,,,T-WOLF-T15,TECLADO,nuevo,activo,0,1,0,0
+T-wolf T16,,,T-WOLF-T16,TECLADO,nuevo,activo,0,1,0,0
+Genius slum star 126,,,GENIUS-SLUM-STAR-126,TECLADO,nuevo,activo,9,1,0,0
+T-wolf T20,,,T-WOLF-T20,TECLADO,nuevo,activo,7,1,0,0
+Bet Pro 1.000VA,,,BET-PRO-1-000VA,ACCESORIOS,nuevo,activo,0,1,0,0
+Logan 0750 VA,,,LOGAN-0750-VA,ACCESORIOS,nuevo,activo,0,1,0,0
+Logan 1.000 VA,,,LOGAN-1-000-VA,ACCESORIOS,nuevo,activo,0,1,0,0
+Logan 1.500 VA,,,LOGAN-1-500-VA,ACCESORIOS,nuevo,activo,0,1,0,0
+Logan 2.200 VA,,,LOGAN-2-200-VA,ACCESORIOS,nuevo,activo,0,1,0,0
+Marshiva 0750 VA,,,MARSHIVA-0750-VA,ACCESORIOS,nuevo,activo,0,1,0,0
+Marshiva 2.000 VA,,,MARSHIVA-2-000-VA,ACCESORIOS,nuevo,activo,0,1,0,0
+Mini Uproducts 8800Mah,,,MINI-UPRODUCTS-8800MAH,ACCESORIOS,nuevo,activo,0,1,0,0
+OPS 1.000 VA,,,OPS-1-000-VA,ACCESORIOS,nuevo,activo,0,1,0,0

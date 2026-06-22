@@ -1,5 +1,6 @@
 import { Save } from "lucide-react";
 import { updateSettings } from "@/app/actions";
+import { DangerZone } from "@/components/settings/danger-zone";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Field, Input, Select } from "@/components/ui/field";
@@ -40,6 +41,9 @@ export default async function SettingsPage() {
       <Card>
         <h3 className="font-bold text-white">Respaldos</h3>
         <p className="mt-2 text-sm text-slate-400">Para esta version, exporta e importa productos por CSV desde Importar/Exportar. La estructura queda preparada para respaldo completo futuro.</p>
+      </Card>
+      <Card>
+        <DangerZone />
       </Card>
     </div>
   );
