@@ -1,9 +1,9 @@
 "use client";
 
 import { useMemo, useState } from "react";
-import Image from "next/image";
 import { Calculator, ImagePlus, Save } from "lucide-react";
 import { saveProduct } from "@/app/actions";
+import { ProductImagePreview } from "@/components/products/product-image-preview";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Field, Input, Select } from "@/components/ui/field";
@@ -11,12 +11,16 @@ import { calculatePrices } from "@/lib/pricing";
 import { formatBs, formatUSD } from "@/lib/utils";
 import type { Category, ExchangeRate, Product } from "@prisma/client";
 
+type ProductFormDefaults = Partial<Pick<Product, "barcode" | "name" | "brand" | "model" | "imageUrl" | "categoryId" | "condition">>;
+
 export function ProductForm({
   product,
+  defaults,
   categories,
   latestRate,
 }: {
   product?: Product | null;
+  defaults?: ProductFormDefaults;
   categories: Category[];
   latestRate: ExchangeRate | null;
 }) {
@@ -24,7 +28,7 @@ export function ProductForm({
   const [baseSalePriceUSD, setBaseSalePriceUSD] = useState(product?.baseSalePriceUSD ?? 0);
   const [bcvRate, setBcvRate] = useState(product?.lastBCVRate || latestRate?.bcvRate || 1);
   const [parallelRate, setParallelRate] = useState(product?.lastParallelRate || latestRate?.parallelRate || 1);
-  const [imageUrl, setImageUrl] = useState(product?.imageUrl ?? "");
+  const [imageUrl, setImageUrl] = useState(product?.imageUrl ?? defaults?.imageUrl ?? "");
   const [uploading, setUploading] = useState(false);
 
   const prices = useMemo(() => calculatePrices({ costUSD, baseSalePriceUSD, bcvRate, parallelRate }), [costUSD, baseSalePriceUSD, bcvRate, parallelRate]);
@@ -49,19 +53,22 @@ export function ProductForm({
             <h3 className="mb-4 font-bold text-white">1. Informacion basica</h3>
             <div className="grid gap-4 md:grid-cols-2">
               <Field label="Nombre del producto">
-                <Input name="name" defaultValue={product?.name ?? ""} placeholder="Ej. Mouse Logitech G203" required />
+                <Input name="name" defaultValue={product?.name ?? defaults?.name ?? ""} placeholder="Ej. Mouse Logitech G203" required />
               </Field>
               <Field label="SKU interno">
                 <Input name="sku" defaultValue={product?.sku ?? ""} placeholder="Opcional" />
               </Field>
+              <Field label="Codigo de barra">
+                <Input name="barcode" defaultValue={product?.barcode ?? defaults?.barcode ?? ""} placeholder="UPC / EAN opcional" inputMode="numeric" />
+              </Field>
               <Field label="Marca">
-                <Input name="brand" defaultValue={product?.brand ?? ""} placeholder="Ej. Logitech" />
+                <Input name="brand" defaultValue={product?.brand ?? defaults?.brand ?? ""} placeholder="Ej. Logitech" />
               </Field>
               <Field label="Modelo">
-                <Input name="model" defaultValue={product?.model ?? ""} placeholder="Ej. G203" />
+                <Input name="model" defaultValue={product?.model ?? defaults?.model ?? ""} placeholder="Ej. G203" />
               </Field>
               <Field label="Condicion">
-                <Select name="condition" defaultValue={product?.condition ?? "NEW"} required>
+                <Select name="condition" defaultValue={product?.condition ?? defaults?.condition ?? "NEW"} required>
                   <option value="NEW">Nuevo</option>
                   <option value="REFURBISHED">Refurbished</option>
                 </Select>
@@ -71,15 +78,18 @@ export function ProductForm({
 
           <Card>
             <h3 className="mb-4 font-bold text-white">2. Categoria y stock</h3>
-            <div className="grid gap-4 md:grid-cols-3">
+            <div className="grid gap-4 md:grid-cols-4">
               <Field label="Categoria">
-                <Select name="categoryId" defaultValue={product?.categoryId ?? ""} required>
+                <Select name="categoryId" defaultValue={product?.categoryId ?? defaults?.categoryId ?? ""} required>
                   <option value="">Seleccionar</option>
                   {categories.map((category) => <option key={category.id} value={category.id}>{category.name}</option>)}
                 </Select>
               </Field>
-              <Field label="Stock actual">
-                <Input name="stock" type="number" min="0" defaultValue={product?.stock ?? 0} required />
+              <Field label="Stock tienda">
+                <Input name="stockTienda" type="number" min="0" defaultValue={product?.stockTienda ?? product?.stock ?? 0} required />
+              </Field>
+              <Field label="Stock deposito">
+                <Input name="stockDeposito" type="number" min="0" defaultValue={product?.stockDeposito ?? 0} required />
               </Field>
               <Field label="Stock minimo">
                 <Input name="minStock" type="number" min="0" defaultValue={product?.minStock ?? 1} required />
@@ -114,7 +124,11 @@ export function ProductForm({
           <Card>
             <h3 className="mb-4 font-bold text-white">4. Foto</h3>
             <div className="relative mb-4 aspect-square overflow-hidden rounded-lg border border-white/10 bg-slate-900">
-              {imageUrl ? <Image src={imageUrl} alt="Producto" fill className="object-cover" /> : <div className="grid h-full place-items-center text-center text-sm text-slate-500">Placeholder gamer<br />sin foto</div>}
+              <ProductImagePreview
+                src={imageUrl}
+                alt="Producto"
+                fallback={<div className="grid h-full place-items-center text-center text-sm text-slate-500">Placeholder gamer<br />sin foto</div>}
+              />
             </div>
             <input type="hidden" name="imageUrl" value={imageUrl} />
             <label className="inline-flex min-h-10 cursor-pointer items-center justify-center gap-2 rounded-lg border border-white/10 bg-white/8 px-4 py-2 text-sm font-semibold text-white hover:bg-white/12">

@@ -134,12 +134,14 @@ export async function updateFromCrystoDolar() {
 export async function saveProduct(id: string | undefined, formData: FormData) {
   const parsed = productSchema.parse({
     sku: value(formData, "sku"),
+    barcode: value(formData, "barcode"),
     name: value(formData, "name"),
     brand: value(formData, "brand"),
     model: value(formData, "model"),
     condition: value(formData, "condition") || "NEW",
     imageUrl: value(formData, "imageUrl"),
-    stock: value(formData, "stock"),
+    stockTienda: value(formData, "stockTienda"),
+    stockDeposito: value(formData, "stockDeposito"),
     minStock: value(formData, "minStock"),
     costUSD: value(formData, "costUSD"),
     baseSalePriceUSD: value(formData, "baseSalePriceUSD"),
@@ -151,12 +153,15 @@ export async function saveProduct(id: string | undefined, formData: FormData) {
   const prices = calculatePrices(parsed);
   const data = {
     sku: parsed.sku || null,
+    barcode: parsed.barcode || null,
     name: parsed.name,
     brand: parsed.brand || null,
     model: parsed.model || null,
     condition: parsed.condition,
     imageUrl: parsed.imageUrl || null,
-    stock: parsed.stock,
+    stock: parsed.stockTienda + parsed.stockDeposito,
+    stockTienda: parsed.stockTienda,
+    stockDeposito: parsed.stockDeposito,
     minStock: parsed.minStock,
     costUSD: parsed.costUSD,
     baseSalePriceUSD: parsed.baseSalePriceUSD,
@@ -266,6 +271,8 @@ export async function importProductsFromCsv(formData: FormData) {
         errors++;
         continue;
       }
+      const stockTienda = Number(row.stockTienda ?? row.tienda ?? row.t ?? row.stock ?? 0);
+      const stockDeposito = Number(row.stockDeposito ?? row.deposito ?? row.d ?? 0);
       const prices = calculatePrices({ costUSD, baseSalePriceUSD, bcvRate, parallelRate });
       await prisma.product.create({
         data: {
@@ -273,10 +280,13 @@ export async function importProductsFromCsv(formData: FormData) {
           brand: row.marca || null,
           model: row.modelo || null,
           sku: row.sku || null,
+          barcode: row.barcode || row.codigoBarra || row.codigoDeBarra || row.codigoBarras || row.codigoDeBarras || row.upc || row.ean || null,
           categoryId: category.id,
           condition,
           isActive,
-          stock: Number(row.stock ?? 0),
+          stock: stockTienda + stockDeposito,
+          stockTienda,
+          stockDeposito,
           minStock: Number(row.stockMinimo ?? 0),
           costUSD,
           baseSalePriceUSD,
@@ -321,12 +331,15 @@ export async function exportInventoryCsv() {
   return toCsv(products.map((product) => ({
     ID: product.id,
     SKU: product.sku,
+    "Codigo de barra": product.barcode,
     Nombre: product.name,
     Marca: product.brand,
     Modelo: product.model,
     Condicion: product.condition === "REFURBISHED" ? "Refurbished" : "Nuevo",
     Categoria: product.category?.name,
     "Stock actual": product.stock,
+    "Stock tienda": product.stockTienda,
+    "Stock deposito": product.stockDeposito,
     "Stock minimo": product.minStock,
     "Costo USD": product.costUSD,
     "Precio base USD": product.baseSalePriceUSD,
@@ -398,9 +411,16 @@ export async function finishSale(input: unknown) {
     });
 
     for (const item of parsed.items) {
+      const product = productMap.get(item.productId)!;
+      const fromStore = Math.min(product.stockTienda, item.quantity);
+      const fromWarehouse = item.quantity - fromStore;
       await tx.product.update({
         where: { id: item.productId },
-        data: { stock: { decrement: item.quantity } },
+        data: {
+          stock: { decrement: item.quantity },
+          stockTienda: { decrement: fromStore },
+          stockDeposito: { decrement: fromWarehouse },
+        },
       });
     }
 

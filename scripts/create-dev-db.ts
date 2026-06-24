@@ -13,6 +13,12 @@ const migration = readFileSync(migrationPath, "utf8");
 
 const incrementalStatements = [
   `ALTER TABLE "Product" ADD COLUMN "condition" TEXT NOT NULL DEFAULT 'NEW'`,
+  `ALTER TABLE "Product" ADD COLUMN "barcode" TEXT`,
+  `CREATE UNIQUE INDEX IF NOT EXISTS "Product_barcode_key" ON "Product"("barcode")`,
+  `CREATE INDEX IF NOT EXISTS "Product_barcode_idx" ON "Product"("barcode")`,
+  `ALTER TABLE "Product" ADD COLUMN "stockTienda" INTEGER NOT NULL DEFAULT 0`,
+  `ALTER TABLE "Product" ADD COLUMN "stockDeposito" INTEGER NOT NULL DEFAULT 0`,
+  `UPDATE "Product" SET "stockTienda" = "stock", "stockDeposito" = 0 WHERE "stockTienda" = 0 AND "stockDeposito" = 0 AND "stock" > 0`,
   `ALTER TABLE "Product" DROP COLUMN "description"`,
   `CREATE TABLE IF NOT EXISTS "Sale" (
     "id" TEXT NOT NULL PRIMARY KEY,

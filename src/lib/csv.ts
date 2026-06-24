@@ -3,12 +3,15 @@ import Papa from "papaparse";
 export const productCsvHeaders = [
   "ID",
   "SKU",
+  "Codigo de barra",
   "Nombre",
   "Marca",
   "Modelo",
   "Condicion",
   "Categoria",
   "Stock actual",
+  "Stock tienda",
+  "Stock deposito",
   "Stock minimo",
   "Costo USD",
   "Precio base USD",
@@ -28,10 +31,23 @@ export type ImportProductRow = {
   marca?: string;
   modelo?: string;
   sku?: string;
+  barcode?: string;
+  codigoBarra?: string;
+  codigoDeBarra?: string;
+  codigoBarras?: string;
+  codigoDeBarras?: string;
+  upc?: string;
+  ean?: string;
   categoria?: string;
   condicion?: string;
   estado?: string;
   stock?: string;
+  stockTienda?: string;
+  stockDeposito?: string;
+  tienda?: string;
+  deposito?: string;
+  d?: string;
+  t?: string;
   stockMinimo?: string;
   costoUSD?: string;
   precioVentaBaseUSD?: string;

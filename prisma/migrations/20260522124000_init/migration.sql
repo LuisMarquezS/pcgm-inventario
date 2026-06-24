@@ -2,12 +2,15 @@
 CREATE TABLE "Product" (
     "id" TEXT NOT NULL PRIMARY KEY,
     "sku" TEXT,
+    "barcode" TEXT,
     "name" TEXT NOT NULL,
     "brand" TEXT,
     "model" TEXT,
     "condition" TEXT NOT NULL DEFAULT 'NEW',
     "imageUrl" TEXT,
     "stock" INTEGER NOT NULL DEFAULT 0,
+    "stockTienda" INTEGER NOT NULL DEFAULT 0,
+    "stockDeposito" INTEGER NOT NULL DEFAULT 0,
     "minStock" INTEGER NOT NULL DEFAULT 0,
     "costUSD" REAL NOT NULL DEFAULT 0,
     "baseSalePriceUSD" REAL NOT NULL DEFAULT 0,
@@ -93,10 +96,16 @@ CREATE TABLE "SaleItem" (
 CREATE UNIQUE INDEX "Product_sku_key" ON "Product"("sku");
 
 -- CreateIndex
+CREATE UNIQUE INDEX "Product_barcode_key" ON "Product"("barcode");
+
+-- CreateIndex
 CREATE INDEX "Product_name_idx" ON "Product"("name");
 
 -- CreateIndex
 CREATE INDEX "Product_sku_idx" ON "Product"("sku");
+
+-- CreateIndex
+CREATE INDEX "Product_barcode_idx" ON "Product"("barcode");
 
 -- CreateIndex
 CREATE INDEX "Product_categoryId_idx" ON "Product"("categoryId");

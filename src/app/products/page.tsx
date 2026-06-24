@@ -1,15 +1,16 @@
-import Image from "next/image";
 import Link from "next/link";
-import { Edit, Grid2X2, List, Plus, RefreshCcw, Trash2 } from "lucide-react";
+import { Barcode, Edit, Grid2X2, List, Plus, RefreshCcw, Trash2 } from "lucide-react";
 import { deleteProduct, recalculateAllProducts, recalculateProduct } from "@/app/actions";
 import { AddToCartButton } from "@/components/cart/add-to-cart-button";
 import { ConditionBadge } from "@/components/products/condition-badge";
+import { LiveProductSearch } from "@/components/products/live-product-search";
 import { ProductBadges } from "@/components/products/product-badges";
+import { ProductImagePreview } from "@/components/products/product-image-preview";
 import { Badge } from "@/components/ui/badge";
 import { LinkButton } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { ConfirmSubmit } from "@/components/ui/confirm-submit";
-import { Input, Select } from "@/components/ui/field";
+import { Select } from "@/components/ui/field";
 import { IconSubmit } from "@/components/ui/icon-submit";
 import { prisma } from "@/lib/prisma";
 import { formatBs, formatDate, formatUSD } from "@/lib/utils";
@@ -36,6 +37,7 @@ export default async function ProductsPage({ searchParams }: { searchParams: Sea
             { brand: { contains: q } },
             { model: { contains: q } },
             { sku: { contains: q } },
+            { barcode: { contains: q } },
           ],
         } : {},
         categoryId ? { categoryId } : {},
@@ -71,13 +73,14 @@ export default async function ProductsPage({ searchParams }: { searchParams: Sea
               <RefreshCcw size={16} /> Recalcular todos
             </ConfirmSubmit>
           </form>
+          <LinkButton href="/products/barcode-new" variant="secondary"><Barcode size={16} /> Por codigo</LinkButton>
           <LinkButton href="/products/new"><Plus size={16} /> Nuevo producto</LinkButton>
         </div>
       </div>
 
       <Card>
         <form className="grid gap-3 lg:grid-cols-[1.5fr_1fr_1fr_1fr_1fr_auto_auto]">
-          <Input name="q" defaultValue={q} placeholder="Buscar por nombre, marca, modelo, SKU..." />
+          <LiveProductSearch key={q} initialValue={q} />
           <Select name="categoryId" defaultValue={categoryId}>
             <option value="">Todas las categorias</option>
             {categories.map((category) => <option key={category.id} value={category.id}>{category.name}</option>)}
@@ -114,7 +117,11 @@ export default async function ProductsPage({ searchParams }: { searchParams: Sea
           {filtered.map((product) => (
             <Card key={product.id}>
               <div className="relative mb-4 aspect-[4/3] overflow-hidden rounded-lg bg-slate-900">
-                {product.imageUrl ? <Image src={product.imageUrl} alt={product.name} fill className="object-cover" /> : <div className="grid h-full place-items-center text-slate-500"><Grid2X2 /></div>}
+                <ProductImagePreview
+                  src={product.imageUrl}
+                  alt={product.name}
+                  fallback={<div className="grid h-full place-items-center text-slate-500"><Grid2X2 /></div>}
+                />
               </div>
               <div className="flex items-start justify-between gap-3">
                 <div>
@@ -129,6 +136,8 @@ export default async function ProductsPage({ searchParams }: { searchParams: Sea
               <div className="mt-3"><ProductBadges stock={product.stock} minStock={product.minStock} imageUrl={product.imageUrl} isActive={product.isActive} /></div>
               <div className="mt-4 grid grid-cols-2 gap-2 text-sm">
                 <span className="text-slate-400">Stock</span><strong className="text-right">{product.stock}</strong>
+                <span className="text-slate-400">Tienda</span><strong className="text-right">{product.stockTienda}</strong>
+                <span className="text-slate-400">Deposito</span><strong className="text-right">{product.stockDeposito}</strong>
                 <span className="text-slate-400">Ajustado USD</span><strong className="text-right">{formatUSD(product.adjustedSalePriceUSD)}</strong>
                 <span className="text-slate-400">Precio Bs</span><strong className="text-right text-lime-200">{formatBs(product.salePriceBs)}</strong>
               </div>
@@ -146,6 +155,8 @@ export default async function ProductsPage({ searchParams }: { searchParams: Sea
                 <th className="px-3 py-2">Condicion</th>
                 <th className="px-3 py-2">Categoria</th>
                 <th className="px-3 py-2">Stock</th>
+                <th className="px-3 py-2">Tienda</th>
+                <th className="px-3 py-2">Deposito</th>
                 <th className="px-3 py-2">Precio USD</th>
                 <th className="px-3 py-2">Precio Bs</th>
                 <th className="px-3 py-2">Tasa usada</th>
@@ -157,10 +168,12 @@ export default async function ProductsPage({ searchParams }: { searchParams: Sea
               {filtered.map((product) => (
                 <tr key={product.id} className="align-top">
                   <td className="px-3 py-2"><ProductBadges stock={product.stock} minStock={product.minStock} imageUrl={product.imageUrl} isActive={product.isActive} /></td>
-                  <td className="px-3 py-2"><strong className="text-white">{product.name}</strong><p className="text-[11px] leading-4 text-slate-400">{product.sku ?? "Sin SKU"} - {product.brand ?? ""} {product.model ?? ""}</p></td>
+                  <td className="px-3 py-2"><strong className="text-white">{product.name}</strong><p className="text-[11px] leading-4 text-slate-400">{product.sku ?? "Sin SKU"} {product.barcode ? `- ${product.barcode}` : ""} - {product.brand ?? ""} {product.model ?? ""}</p></td>
                   <td className="px-3 py-2"><ConditionBadge condition={product.condition} /></td>
                   <td className="px-3 py-2">{product.category?.name ?? "Sin categoria"}</td>
-                  <td className="whitespace-nowrap px-3 py-2">{product.stock} / min {product.minStock}</td>
+                  <td className="whitespace-nowrap px-3 py-2 font-semibold text-white">{product.stock}</td>
+                  <td className="whitespace-nowrap px-3 py-2">{product.stockTienda}</td>
+                  <td className="whitespace-nowrap px-3 py-2">{product.stockDeposito}</td>
                   <td className="whitespace-nowrap px-3 py-2">{formatUSD(product.adjustedSalePriceUSD)}</td>
                   <td className="whitespace-nowrap px-3 py-2 text-lime-200">{formatBs(product.salePriceBs)}</td>
                   <td className="whitespace-nowrap px-3 py-2 text-[11px] text-slate-300">BCV {product.lastBCVRate} / USDT {product.lastParallelRate}</td>
@@ -182,11 +195,14 @@ function ProductActions({
   product: {
     id: string;
     sku: string | null;
+    barcode: string | null;
     name: string;
     brand: string | null;
     model: string | null;
     condition: string;
     stock: number;
+    stockTienda: number;
+    stockDeposito: number;
     adjustedSalePriceUSD: number;
     salePriceBs: number;
     isActive: boolean;

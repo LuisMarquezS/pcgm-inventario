@@ -15,12 +15,15 @@ datasource db {
 model Product {
   id                   String    @id @default(cuid())
   sku                  String?   @unique
+  barcode              String?   @unique
   name                 String
   brand                String?
   model                String?
   condition            String    @default("NEW")
   imageUrl             String?
   stock                Int       @default(0)
+  stockTienda          Int       @default(0)
+  stockDeposito        Int       @default(0)
   minStock             Int       @default(0)
   costUSD              Float     @default(0)
   baseSalePriceUSD     Float     @default(0)
@@ -39,6 +42,7 @@ model Product {
 
   @@index([name])
   @@index([sku])
+  @@index([barcode])
   @@index([categoryId])
 }
 

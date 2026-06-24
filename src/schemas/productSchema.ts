@@ -2,12 +2,14 @@ import { z } from "zod";
 
 export const productSchema = z.object({
   sku: z.string().trim().optional(),
+  barcode: z.string().trim().optional(),
   name: z.string().trim().min(1, "El nombre es requerido"),
   brand: z.string().trim().optional(),
   model: z.string().trim().optional(),
   condition: z.enum(["NEW", "REFURBISHED"], "La condicion es requerida"),
   imageUrl: z.string().trim().optional(),
-  stock: z.coerce.number().int().min(0, "El stock no puede ser negativo"),
+  stockTienda: z.coerce.number().int().min(0, "El stock en tienda no puede ser negativo"),
+  stockDeposito: z.coerce.number().int().min(0, "El stock en deposito no puede ser negativo"),
   minStock: z.coerce.number().int().min(0, "El stock minimo no puede ser negativo"),
   costUSD: z.coerce.number().min(0, "El costo no puede ser negativo"),
   baseSalePriceUSD: z.coerce.number().min(0, "El precio no puede ser negativo"),

@@ -37,13 +37,20 @@ El boton `Actualizar desde CrystoDolar` usa el endpoint interno `/api/exchange-r
 Ve a `Importar/Exportar` y sube un CSV con estas columnas:
 
 ```csv
-nombre,marca,modelo,sku,categoria,condicion,estado,stock,stockMinimo,costoUSD,precioVentaBaseUSD
+nombre,marca,modelo,sku,barcode,categoria,condicion,estado,stockTienda,stockDeposito,stockMinimo,costoUSD,precioVentaBaseUSD
 ```
 
 Hay una plantilla en `public/templates/inventario-ejemplo.csv`.
 
 La columna `condicion` es opcional y acepta `nuevo` o `refurbished`. Si viene vacia, la app usa `Nuevo`.
 La columna `estado` es opcional y acepta `activo` o `inactivo`. Si viene vacia, la app usa `activo`.
+El stock total se calcula como `stockTienda + stockDeposito`.
+
+## Agregar por codigo de barra
+
+En `Inventario`, pulsa `Por codigo`. Escribe o escanea un UPC/EAN y la app intentara consultar UPCitemdb desde un endpoint local. Si encuentra datos, prellena el formulario; si falla o se agota el limite diario, puedes guardar el producto manualmente con el mismo codigo.
+
+Si configuras `BARCODE_LOOKUP_API_KEY` en `.env`, la app consulta primero Barcode Lookup y usa UPCitemdb como respaldo. La key nunca debe subirse a Git.
 
 ## Exportar inventario
 
