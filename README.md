@@ -18,6 +18,22 @@ npm run dev
 
 Abre `http://localhost:3000`.
 
+## Iniciar y actualizar en Windows
+
+Para abrir la app en una computadora con Laragon/Node instalado, ejecuta:
+
+```bat
+iniciar-pcgm.bat
+```
+
+Para actualizar el sistema desde GitHub, cierra primero el servidor de la app y ejecuta:
+
+```bat
+actualizar-pcgm.bat
+```
+
+El actualizador hace `git pull`, `npm install`, prepara SQLite y regenera Prisma. Si detecta cambios locales en archivos del sistema, se detiene para evitar pisar trabajo.
+
 Si el motor local de Prisma falla al crear SQLite en Windows, puedes inicializar la base con el fallback incluido:
 
 ```bash
