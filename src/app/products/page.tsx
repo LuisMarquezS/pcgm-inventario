@@ -138,6 +138,7 @@ export default async function ProductsPage({ searchParams }: { searchParams: Sea
                 <span className="text-slate-400">Stock</span><strong className="text-right">{product.stock}</strong>
                 <span className="text-slate-400">Tienda</span><strong className="text-right">{product.stockTienda}</strong>
                 <span className="text-slate-400">Deposito</span><strong className="text-right">{product.stockDeposito}</strong>
+                <span className="text-slate-400">Almacen ext.</span><strong className="text-right">{product.stockAlmacenExterno}</strong>
                 <span className="text-slate-400">Ajustado USD</span><strong className="text-right">{formatUSD(product.adjustedSalePriceUSD)}</strong>
                 <span className="text-slate-400">Precio Bs</span><strong className="text-right text-lime-200">{formatBs(product.salePriceBs)}</strong>
               </div>
@@ -147,7 +148,7 @@ export default async function ProductsPage({ searchParams }: { searchParams: Sea
         </div>
       ) : (
         <Card className="overflow-x-auto p-0">
-          <table className="w-full min-w-[1080px] text-left text-[13px]">
+          <table className="w-full min-w-[1160px] text-left text-[13px]">
             <thead className="bg-white/5 text-xs uppercase text-slate-400">
               <tr>
                 <th className="px-3 py-2"><List size={15} /></th>
@@ -157,6 +158,7 @@ export default async function ProductsPage({ searchParams }: { searchParams: Sea
                 <th className="px-3 py-2">Stock</th>
                 <th className="px-3 py-2">Tienda</th>
                 <th className="px-3 py-2">Deposito</th>
+                <th className="px-3 py-2">Almacen ext.</th>
                 <th className="px-3 py-2">Precio USD</th>
                 <th className="px-3 py-2">Precio Bs</th>
                 <th className="px-3 py-2">Tasa usada</th>
@@ -174,6 +176,7 @@ export default async function ProductsPage({ searchParams }: { searchParams: Sea
                   <td className="whitespace-nowrap px-3 py-2 font-semibold text-white">{product.stock}</td>
                   <td className="whitespace-nowrap px-3 py-2">{product.stockTienda}</td>
                   <td className="whitespace-nowrap px-3 py-2">{product.stockDeposito}</td>
+                  <td className="whitespace-nowrap px-3 py-2">{product.stockAlmacenExterno}</td>
                   <td className="whitespace-nowrap px-3 py-2">{formatUSD(product.adjustedSalePriceUSD)}</td>
                   <td className="whitespace-nowrap px-3 py-2 text-lime-200">{formatBs(product.salePriceBs)}</td>
                   <td className="whitespace-nowrap px-3 py-2 text-[11px] text-slate-300">BCV {product.lastBCVRate} / USDT {product.lastParallelRate}</td>
@@ -203,6 +206,7 @@ function ProductActions({
     stock: number;
     stockTienda: number;
     stockDeposito: number;
+    stockAlmacenExterno: number;
     adjustedSalePriceUSD: number;
     salePriceBs: number;
     isActive: boolean;

@@ -16,6 +16,7 @@ export async function GET() {
     "Stock actual": product.stock,
     "Stock tienda": product.stockTienda,
     "Stock deposito": product.stockDeposito,
+    "Stock almacen externo": product.stockAlmacenExterno,
     "Stock minimo": product.minStock,
     "Costo USD": product.costUSD,
     "Precio base USD": product.baseSalePriceUSD,

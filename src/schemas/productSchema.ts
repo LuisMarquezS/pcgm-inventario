@@ -10,6 +10,7 @@ export const productSchema = z.object({
   imageUrl: z.string().trim().optional(),
   stockTienda: z.coerce.number().int().min(0, "El stock en tienda no puede ser negativo"),
   stockDeposito: z.coerce.number().int().min(0, "El stock en deposito no puede ser negativo"),
+  stockAlmacenExterno: z.coerce.number().int().min(0, "El stock en almacen externo no puede ser negativo"),
   minStock: z.coerce.number().int().min(0, "El stock minimo no puede ser negativo"),
   costUSD: z.coerce.number().min(0, "El costo no puede ser negativo"),
   baseSalePriceUSD: z.coerce.number().min(0, "El precio no puede ser negativo"),

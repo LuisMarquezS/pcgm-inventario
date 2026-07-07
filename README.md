@@ -53,14 +53,14 @@ El boton `Actualizar desde CrystoDolar` usa el endpoint interno `/api/exchange-r
 Ve a `Importar/Exportar` y sube un CSV con estas columnas:
 
 ```csv
-nombre,marca,modelo,sku,barcode,categoria,condicion,estado,stockTienda,stockDeposito,stockMinimo,costoUSD,precioVentaBaseUSD
+nombre,marca,modelo,sku,barcode,categoria,condicion,estado,stockTienda,stockDeposito,stockAlmacenExterno,stockMinimo,costoUSD,precioVentaBaseUSD
 ```
 
 Hay una plantilla en `public/templates/inventario-ejemplo.csv`.
 
 La columna `condicion` es opcional y acepta `nuevo` o `refurbished`. Si viene vacia, la app usa `Nuevo`.
 La columna `estado` es opcional y acepta `activo` o `inactivo`. Si viene vacia, la app usa `activo`.
-El stock total se calcula como `stockTienda + stockDeposito`.
+El stock total se calcula como `stockTienda + stockDeposito + stockAlmacenExterno`.
 
 ## Agregar por codigo de barra
 

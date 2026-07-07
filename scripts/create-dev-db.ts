@@ -18,7 +18,9 @@ const incrementalStatements = [
   `CREATE INDEX IF NOT EXISTS "Product_barcode_idx" ON "Product"("barcode")`,
   `ALTER TABLE "Product" ADD COLUMN "stockTienda" INTEGER NOT NULL DEFAULT 0`,
   `ALTER TABLE "Product" ADD COLUMN "stockDeposito" INTEGER NOT NULL DEFAULT 0`,
+  `ALTER TABLE "Product" ADD COLUMN "stockAlmacenExterno" INTEGER NOT NULL DEFAULT 0`,
   `UPDATE "Product" SET "stockTienda" = "stock", "stockDeposito" = 0 WHERE "stockTienda" = 0 AND "stockDeposito" = 0 AND "stock" > 0`,
+  `UPDATE "Product" SET "stock" = "stockTienda" + "stockDeposito" + "stockAlmacenExterno"`,
   `ALTER TABLE "Product" DROP COLUMN "description"`,
   `CREATE TABLE IF NOT EXISTS "Sale" (
     "id" TEXT NOT NULL PRIMARY KEY,

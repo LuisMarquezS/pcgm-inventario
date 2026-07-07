@@ -12,6 +12,7 @@ export const productCsvHeaders = [
   "Stock actual",
   "Stock tienda",
   "Stock deposito",
+  "Stock almacen externo",
   "Stock minimo",
   "Costo USD",
   "Precio base USD",
@@ -44,6 +45,10 @@ export type ImportProductRow = {
   stock?: string;
   stockTienda?: string;
   stockDeposito?: string;
+  stockAlmacenExterno?: string;
+  almacenExterno?: string;
+  almacen?: string;
+  externo?: string;
   tienda?: string;
   deposito?: string;
   d?: string;

@@ -24,6 +24,7 @@ model Product {
   stock                Int       @default(0)
   stockTienda          Int       @default(0)
   stockDeposito        Int       @default(0)
+  stockAlmacenExterno  Int       @default(0)
   minStock             Int       @default(0)
   costUSD              Float     @default(0)
   baseSalePriceUSD     Float     @default(0)

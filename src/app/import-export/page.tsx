@@ -27,7 +27,7 @@ export default async function ImportExportPage({ searchParams }: { searchParams:
         <Card>
           <h3 className="mb-4 flex items-center gap-2 font-bold text-white"><FileUp size={18} /> Importar CSV</h3>
           <form action={importProductsFromCsv} className="grid gap-4">
-            <Field label="Archivo CSV" hint="Columnas: nombre, marca, modelo, sku, barcode, categoria, condicion, estado, stockTienda, stockDeposito, stockMinimo, costoUSD, precioVentaBaseUSD.">
+            <Field label="Archivo CSV" hint="Columnas: nombre, marca, modelo, sku, barcode, categoria, condicion, estado, stockTienda, stockDeposito, stockAlmacenExterno, stockMinimo, costoUSD, precioVentaBaseUSD.">
               <Input name="file" type="file" accept=".csv,text/csv" required />
             </Field>
             <Button type="submit">Importar productos</Button>
@@ -39,7 +39,7 @@ export default async function ImportExportPage({ searchParams }: { searchParams:
 
         <Card>
           <h3 className="mb-4 flex items-center gap-2 font-bold text-white"><FileDown size={18} /> Exportar inventario</h3>
-          <p className="mb-4 text-sm text-slate-400">Incluye ID, SKU, codigo de barra, categoria, stock total, stock tienda, stock deposito, costos, precios calculados, tasas usadas, margen y fechas.</p>
+          <p className="mb-4 text-sm text-slate-400">Incluye ID, SKU, codigo de barra, categoria, stock total, stock tienda, stock deposito, stock almacen externo, costos, precios calculados, tasas usadas, margen y fechas.</p>
           <a href="/api/export/products" className="inline-flex min-h-10 items-center justify-center gap-2 rounded-lg bg-cyan-400 px-4 py-2 text-sm font-semibold text-slate-950 hover:bg-cyan-300">
             <Download size={16} /> Exportar CSV
           </a>

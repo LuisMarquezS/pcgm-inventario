@@ -78,7 +78,7 @@ export function ProductForm({
 
           <Card>
             <h3 className="mb-4 font-bold text-white">2. Categoria y stock</h3>
-            <div className="grid gap-4 md:grid-cols-4">
+            <div className="grid gap-4 md:grid-cols-2 xl:grid-cols-5">
               <Field label="Categoria">
                 <Select name="categoryId" defaultValue={product?.categoryId ?? defaults?.categoryId ?? ""} required>
                   <option value="">Seleccionar</option>
@@ -90,6 +90,9 @@ export function ProductForm({
               </Field>
               <Field label="Stock deposito">
                 <Input name="stockDeposito" type="number" min="0" defaultValue={product?.stockDeposito ?? 0} required />
+              </Field>
+              <Field label="Almacen externo">
+                <Input name="stockAlmacenExterno" type="number" min="0" defaultValue={product?.stockAlmacenExterno ?? 0} required />
               </Field>
               <Field label="Stock minimo">
                 <Input name="minStock" type="number" min="0" defaultValue={product?.minStock ?? 1} required />

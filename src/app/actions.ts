@@ -142,6 +142,7 @@ export async function saveProduct(id: string | undefined, formData: FormData) {
     imageUrl: value(formData, "imageUrl"),
     stockTienda: value(formData, "stockTienda"),
     stockDeposito: value(formData, "stockDeposito"),
+    stockAlmacenExterno: value(formData, "stockAlmacenExterno"),
     minStock: value(formData, "minStock"),
     costUSD: value(formData, "costUSD"),
     baseSalePriceUSD: value(formData, "baseSalePriceUSD"),
@@ -159,9 +160,10 @@ export async function saveProduct(id: string | undefined, formData: FormData) {
     model: parsed.model || null,
     condition: parsed.condition,
     imageUrl: parsed.imageUrl || null,
-    stock: parsed.stockTienda + parsed.stockDeposito,
+    stock: parsed.stockTienda + parsed.stockDeposito + parsed.stockAlmacenExterno,
     stockTienda: parsed.stockTienda,
     stockDeposito: parsed.stockDeposito,
+    stockAlmacenExterno: parsed.stockAlmacenExterno,
     minStock: parsed.minStock,
     costUSD: parsed.costUSD,
     baseSalePriceUSD: parsed.baseSalePriceUSD,
@@ -273,6 +275,7 @@ export async function importProductsFromCsv(formData: FormData) {
       }
       const stockTienda = Number(row.stockTienda ?? row.tienda ?? row.t ?? row.stock ?? 0);
       const stockDeposito = Number(row.stockDeposito ?? row.deposito ?? row.d ?? 0);
+      const stockAlmacenExterno = Number(row.stockAlmacenExterno ?? row.almacenExterno ?? row.almacen ?? row.externo ?? 0);
       const prices = calculatePrices({ costUSD, baseSalePriceUSD, bcvRate, parallelRate });
       await prisma.product.create({
         data: {
@@ -284,9 +287,10 @@ export async function importProductsFromCsv(formData: FormData) {
           categoryId: category.id,
           condition,
           isActive,
-          stock: stockTienda + stockDeposito,
+          stock: stockTienda + stockDeposito + stockAlmacenExterno,
           stockTienda,
           stockDeposito,
+          stockAlmacenExterno,
           minStock: Number(row.stockMinimo ?? 0),
           costUSD,
           baseSalePriceUSD,
@@ -340,6 +344,7 @@ export async function exportInventoryCsv() {
     "Stock actual": product.stock,
     "Stock tienda": product.stockTienda,
     "Stock deposito": product.stockDeposito,
+    "Stock almacen externo": product.stockAlmacenExterno,
     "Stock minimo": product.minStock,
     "Costo USD": product.costUSD,
     "Precio base USD": product.baseSalePriceUSD,
@@ -413,13 +418,16 @@ export async function finishSale(input: unknown) {
     for (const item of parsed.items) {
       const product = productMap.get(item.productId)!;
       const fromStore = Math.min(product.stockTienda, item.quantity);
-      const fromWarehouse = item.quantity - fromStore;
+      const remainingAfterStore = item.quantity - fromStore;
+      const fromWarehouse = Math.min(product.stockDeposito, remainingAfterStore);
+      const fromExternalWarehouse = remainingAfterStore - fromWarehouse;
       await tx.product.update({
         where: { id: item.productId },
         data: {
           stock: { decrement: item.quantity },
           stockTienda: { decrement: fromStore },
           stockDeposito: { decrement: fromWarehouse },
+          stockAlmacenExterno: { decrement: fromExternalWarehouse },
         },
       });
     }

@@ -11,6 +11,7 @@ CREATE TABLE "Product" (
     "stock" INTEGER NOT NULL DEFAULT 0,
     "stockTienda" INTEGER NOT NULL DEFAULT 0,
     "stockDeposito" INTEGER NOT NULL DEFAULT 0,
+    "stockAlmacenExterno" INTEGER NOT NULL DEFAULT 0,
     "minStock" INTEGER NOT NULL DEFAULT 0,
     "costUSD" REAL NOT NULL DEFAULT 0,
     "baseSalePriceUSD" REAL NOT NULL DEFAULT 0,
