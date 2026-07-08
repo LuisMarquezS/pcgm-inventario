@@ -5,11 +5,13 @@ title PC Gamer Margarita - Inventario
 cd /d "%~dp0"
 
 rem Intenta encontrar Node/npm aunque el BAT se abra desde CMD normal.
+set "PCGM_NODE_DIR="
 if exist "C:\laragon\bin\nodejs" (
-  for /d %%D in ("C:\laragon\bin\nodejs\node-*") do (
-    if exist "%%~fD\npm.cmd" set "PATH=%%~fD;%PATH%"
+  for /f "delims=" %%N in ('where /r "C:\laragon\bin\nodejs" npm.cmd 2^>nul') do (
+    if not defined PCGM_NODE_DIR set "PCGM_NODE_DIR=%%~dpN"
   )
 )
+if defined PCGM_NODE_DIR set "PATH=%PCGM_NODE_DIR%;%PATH%"
 if exist "%ProgramFiles%\nodejs\npm.cmd" set "PATH=%ProgramFiles%\nodejs;%PATH%"
 if exist "%ProgramFiles(x86)%\nodejs\npm.cmd" set "PATH=%ProgramFiles(x86)%\nodejs;%PATH%"
 
@@ -23,6 +25,11 @@ where npm >nul 2>nul
 if errorlevel 1 (
   echo [ERROR] No se encontro npm en esta terminal.
   echo Instala Node.js o revisa que Laragon tenga Node habilitado.
+  echo.
+  echo Rutas revisadas:
+  echo - C:\laragon\bin\nodejs
+  echo - %ProgramFiles%\nodejs
+  echo - %ProgramFiles(x86)%\nodejs
   echo.
   pause
   exit /b 1
