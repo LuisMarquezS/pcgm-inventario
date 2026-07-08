@@ -4,6 +4,15 @@ setlocal
 title PC Gamer Margarita - Inventario
 cd /d "%~dp0"
 
+rem Intenta encontrar Node/npm aunque el BAT se abra desde CMD normal.
+if exist "C:\laragon\bin\nodejs" (
+  for /d %%D in ("C:\laragon\bin\nodejs\node-*") do (
+    if exist "%%~fD\npm.cmd" set "PATH=%%~fD;%PATH%"
+  )
+)
+if exist "%ProgramFiles%\nodejs\npm.cmd" set "PATH=%ProgramFiles%\nodejs;%PATH%"
+if exist "%ProgramFiles(x86)%\nodejs\npm.cmd" set "PATH=%ProgramFiles(x86)%\nodejs;%PATH%"
+
 echo.
 echo ==========================================
 echo  PC Gamer Margarita - Inventario local
@@ -13,7 +22,7 @@ echo.
 where npm >nul 2>nul
 if errorlevel 1 (
   echo [ERROR] No se encontro npm en esta terminal.
-  echo Abre este archivo desde una terminal donde Node.js este disponible, por ejemplo Laragon.
+  echo Instala Node.js o revisa que Laragon tenga Node habilitado.
   echo.
   pause
   exit /b 1

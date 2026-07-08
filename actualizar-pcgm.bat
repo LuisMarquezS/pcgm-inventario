@@ -4,6 +4,23 @@ setlocal
 title PC Gamer Margarita - Actualizar inventario
 cd /d "%~dp0"
 
+rem Intenta encontrar Git y Node/npm aunque el BAT se abra desde CMD normal.
+if exist "C:\laragon\bin\nodejs" (
+  for /d %%D in ("C:\laragon\bin\nodejs\node-*") do (
+    if exist "%%~fD\npm.cmd" set "PATH=%%~fD;%PATH%"
+  )
+)
+if exist "C:\laragon\bin\git" (
+  for /d %%D in ("C:\laragon\bin\git\*") do (
+    if exist "%%~fD\cmd\git.exe" set "PATH=%%~fD\cmd;%PATH%"
+    if exist "%%~fD\bin\git.exe" set "PATH=%%~fD\bin;%PATH%"
+  )
+)
+if exist "%ProgramFiles%\nodejs\npm.cmd" set "PATH=%ProgramFiles%\nodejs;%PATH%"
+if exist "%ProgramFiles(x86)%\nodejs\npm.cmd" set "PATH=%ProgramFiles(x86)%\nodejs;%PATH%"
+if exist "%ProgramFiles%\Git\cmd\git.exe" set "PATH=%ProgramFiles%\Git\cmd;%PATH%"
+if exist "%ProgramFiles(x86)%\Git\cmd\git.exe" set "PATH=%ProgramFiles(x86)%\Git\cmd;%PATH%"
+
 echo.
 echo ==========================================
 echo  PC Gamer Margarita - Actualizar sistema
@@ -13,7 +30,7 @@ echo.
 where git >nul 2>nul
 if errorlevel 1 (
   echo [ERROR] No se encontro Git en esta terminal.
-  echo Abre este archivo desde una terminal donde Git este disponible.
+  echo Instala Git o revisa que Laragon tenga Git habilitado.
   echo.
   pause
   exit /b 1
@@ -22,7 +39,7 @@ if errorlevel 1 (
 where npm >nul 2>nul
 if errorlevel 1 (
   echo [ERROR] No se encontro npm en esta terminal.
-  echo Abre este archivo desde Laragon o una terminal con Node.js disponible.
+  echo Instala Node.js o revisa que Laragon tenga Node habilitado.
   echo.
   pause
   exit /b 1
@@ -45,7 +62,7 @@ if not exist ".git" (
 )
 
 echo [1/5] Revisando cambios locales...
-git diff --quiet
+git diff --ignore-cr-at-eol --quiet
 if errorlevel 1 (
   echo.
   echo [ALERTA] Hay cambios locales en archivos del sistema.
