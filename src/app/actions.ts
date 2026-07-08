@@ -173,7 +173,7 @@ export async function saveProduct(id: string | undefined, formData: FormData) {
     profitMarginPercent: prices.profitMarginPercent,
     lastBCVRate: parsed.bcvRate,
     lastParallelRate: parsed.parallelRate,
-    categoryId: parsed.categoryId,
+    category: { connect: { id: parsed.categoryId } },
     isActive: parsed.isActive,
   };
 
@@ -284,7 +284,7 @@ export async function importProductsFromCsv(formData: FormData) {
           model: row.modelo || null,
           sku: row.sku || null,
           barcode: row.barcode || row.codigoBarra || row.codigoDeBarra || row.codigoBarras || row.codigoDeBarras || row.upc || row.ean || null,
-          categoryId: category.id,
+          category: { connect: { id: category.id } },
           condition,
           isActive,
           stock: stockTienda + stockDeposito + stockAlmacenExterno,
